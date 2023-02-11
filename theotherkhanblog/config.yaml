@@ -1,6 +1,6 @@
 baseURL: https://theotherkhan.github.io/
 languageCode: en-us
-title: Hasan Khan
+title: Monsoons
 theme: hugo-theme-mini
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
@@ -35,8 +35,6 @@ markup:
 # Social links in footer, support github,twitter,stackoverflow,facebook
 social:
   # e.g.
-  github: https://github.com/theotherkhan
-  linkedin: https://www.linkedin.com/in/hk4cd/
   # facebook: your-facebook-link
 
 
@@ -45,7 +43,7 @@ params:
   # Site Author
   author: Hasan Khan
   # Author biography
-  bio: Developer
+  bio: 
   # Site Description, used in HTML meat
   description: My Blog
 
@@ -69,13 +67,17 @@ params:
   # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
   hiddenPostSummaryInHomePage: false
   # Website copy write, default: '© Copyright 2021 ❤️ {params.author}'
-  copyright: ' ' 
+  copyright: ' © river kids ' 
 
   # Extra links in navigation
   links:
     ## e.g.
-     - name: Writing
-       path: /writing 
+    - name: Poetry
+      path: /poetry
+    - name: Prose
+      path: /prose
+    - name: Notes
+      path: /notes
 
   # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
   customCSS:
