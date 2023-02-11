@@ -1,6 +1,9 @@
 home:
-  other: Home
+  other: M O N S O O N S
 
+M O N S O O N S:
+  other: M O N S O O N S
+  
 archive:
   other: Archive
 
@@ -43,8 +46,7 @@ postsOlder:
 
 poweredBy:
   other: >-
-    Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a
-    href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+    
 
 publishDateShort:
   other: '{{ .PublishDate.Format "Jan 2" }}'

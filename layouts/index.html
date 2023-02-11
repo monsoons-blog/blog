@@ -1,7 +1,9 @@
 {{ define "main" }}
 {{ partial "profile.html" . }}
 
-<div id="list-page">
+<hr style="margin-left: 3%;">
+
+<div style="margin-left: 0%;" id="list-page">
     {{ $pages := .Site.RegularPages }}
     {{ $paginator := .Paginate ($pages) }}
     {{ range $paginator.Pages }}
