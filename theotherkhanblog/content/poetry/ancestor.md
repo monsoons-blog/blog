@@ -1,9 +1,9 @@
 +++
 title = "Ancestor"
 description = "Hugo, the world's fastest framework for building websites"
-date = "2023-02-03"
+date = "2022-02-06"
 aliases = ["hi"]
-author = "Hasan"
+authors = ["Hasan"]
 enableComments = false
 +++
 

@@ -1,9 +1,9 @@
 +++
 title = "Arcade America"
 description = "Hugo, the world's fastest framework for building websites"
-date = "2023-02-03"
+date = "2020-01-03"
 aliases = ["hi"]
-author = "Hasan"
+authors = ["Hasan"]
 enableComments = false
 +++
 

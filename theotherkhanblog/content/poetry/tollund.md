@@ -1,9 +1,9 @@
 +++
 title = "Tollund Man"
 description = "Hugo, the world's fastest framework for building websites"
-date = "2023-02-03"
+date = "2023-02-10"
 aliases = ["hi"]
-author = "mosambiyaar"
+authors = ["mosambiyaar"]
 enableComments = false
 +++
  
@@ -11,7 +11,7 @@ enableComments = false
 two thousand years ago \
 with my bare eye i encountered \
 a Mars of spore & dry grass. but
- 
+  
 here mildew permeates my routine. i \
 spray the killer, spray & shine & \
 behold! a circumstantial vacuum
