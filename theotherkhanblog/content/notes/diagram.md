@@ -9,4 +9,4 @@ enableComments = false
 
 ![diagram](diagram.jpg)
 
-The world of Urdu poetry is richly connected - and in constant conversation with the wider world. 
+The world of Urdu shairi is deeply interconnected - and in constant conversation with the wider world. 
