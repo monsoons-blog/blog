@@ -7,7 +7,7 @@ author = "Hasan"
 enableComments = false
 +++
 
-Confusing myself for the bad deed 
+Confusing myself for the bad deed  
 I woke up at sunrise and said: not anymore 
 Like escaping your own smell
 And I would molt skin and bone but my ancestor said: the scent lingers
