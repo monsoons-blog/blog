@@ -14,7 +14,7 @@ My corporation goes to trial and settles: intermittent recycling programs \
 My algorithm suggests buying crescent moon jewelry \
 Dear all: but all too late. Flooding fires, fiery floods, the flight \
 I unoriginate away in the ozone \
-tearing privilege of heritage jetting \
+tearing privilege of heritage jetting 
 
 Responsibility shoved into words: this poem \
 The confusion of profit, of prophets \
