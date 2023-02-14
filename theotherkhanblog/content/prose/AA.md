@@ -1,5 +1,5 @@
 +++
-title = "Arcade America"
+title = "1 dead at Arcade America"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2020-01-03"
 aliases = ["hi"]
