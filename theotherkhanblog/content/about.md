@@ -7,4 +7,8 @@ authors = ["Hasan &", "mosambiyaar"]
 enableComments = false
 +++
 
-Hi! This is a blog for poetry, shairi notes, and other musings. Updated seasonally.
+Hi! This is a blog for poetry, shairi notes, and other musings. Updated seasonally. \
+
+Current contributors:
+Hasan Khan
+mosambiyaar

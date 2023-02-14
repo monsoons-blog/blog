@@ -1,5 +1,5 @@
 +++
-title = "Shairi notes"
+title = "Shairi notes: Everything is connected"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2023-01-20"
 aliases = ["hi"]
