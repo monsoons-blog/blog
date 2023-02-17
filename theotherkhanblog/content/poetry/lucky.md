@@ -1,22 +1,20 @@
 +++
 title = "Getting lucky"
 description = "Hugo, the world's fastest framework for building websites"
-date = "2023-02-03"
+date = "2023-02-17"
 aliases = ["hi"]
 authors = ["Zainab Akhtar"]
 enableComments = false
 +++
 
-Getting lucky
-
 Jostling against tiny shoulders \
 You make your way through \
-A moment’s pause at the threshold- \
+A moment’s pause at the threshold — \
 No time to spare \
 A hurried entrance \
 A foregone goodbye \
 What is this place? \
-First glance- \
+First glance — \
 Eyes met with grandeur \
 An apparent immaculacy \
 Ceilings high \
@@ -56,7 +54,7 @@ The memorable \
 The insecure. \
 You try scraping it off \
 It only allows so much \
-Residue stuck in the nails- \
+Residue stuck in the nails — \
 A reminder \
 Of what cannot be forced. \
 You walk through the hallway \
