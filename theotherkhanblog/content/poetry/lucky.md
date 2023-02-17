@@ -9,12 +9,12 @@ enableComments = false
 
 Jostling against tiny shoulders \
 You make your way through \
-A moment’s pause at the threshold — \
+A moment’s pause at the threshold – \
 No time to spare \
 A hurried entrance \
 A foregone goodbye \
 What is this place? \
-First glance — \
+First glance – \
 Eyes met with grandeur \
 An apparent immaculacy \
 Ceilings high \
@@ -39,9 +39,9 @@ See this floor first \
 Strange, so empty \
 Walking through it quietly \
 You see it clearer \
-Grandness- a wobble \
+Grandness – a wobble \
 Barely standing \
-Walls- just boards \
+Walls – just boards \
 Encasing the stone \
 Paint peeling off \
 To reveal some more \
@@ -54,7 +54,7 @@ The memorable \
 The insecure. \
 You try scraping it off \
 It only allows so much \
-Residue stuck in the nails — \
+Residue stuck in the nails – \
 A reminder \
 Of what cannot be forced. \
 You walk through the hallway \
