@@ -56,7 +56,7 @@ You try scraping it off \
 It only allows so much \
 Residue stuck in the nails – \
 A reminder \
-Of what cannot be forced. \
+Of what cannot be forced \
 You walk through the hallway \
 Wondering still \
 A faint uneasiness \
@@ -64,7 +64,7 @@ A constant tugging \
 No time to spare \
 So much to see \
 This empty grandiose \
-And the other unseens.
+And the other unseens
 
 It’s tough outside \
 You just got lucky.

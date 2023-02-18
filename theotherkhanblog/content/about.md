@@ -11,4 +11,6 @@ Hi! This is a blog for poetry, shairi notes, and other musings. Updated seasonal
 
 Current contributors: \
 Hasan Khan \
-mosambiyaar 
+Zainab Akhtar \
+mosambiyaar \
+
