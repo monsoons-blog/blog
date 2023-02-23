@@ -7,10 +7,10 @@ authors = ["Shairi folks"]
 enableComments = false
 +++
 
-Hi! This is a blog for poetry, shairi notes, and other musings. Updated seasonally. 
+Hi! This is a blog for poetry, shairi notes, and other musings. Updated monthly. 
 
 Current contributors: \
 Hasan Khan \
 Zainab Akhtar \
-mosambiyaar \
+mosambiyaar 
 

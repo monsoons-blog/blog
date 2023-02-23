@@ -1,5 +1,5 @@
 +++
-title = "Ghazal"
+title = "گر پاڑے نیچے سارے ستارے"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2023-02-03"
 aliases = ["hi"]
@@ -7,4 +7,4 @@ authors = ["Hasan"]
 enableComments = false
 +++
 
-<img src="ghazal11.jpg" alt="ghazal" width="290" height="700" title="ghazal">
+<img src="ghazal20.jpg" alt="ghazal" width="290" height="700" title="ghazal">
