@@ -3,7 +3,7 @@ title = "Wildfire"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2021-02-03"
 aliases = ["hi"]
-authors = ["Hasan"]
+authors = ["Hasan Khan"]
 enableComments = false
 +++
 
