@@ -39,7 +39,7 @@ Rooftops, lakeside, stories on loop \
 playful silence resting \
 in crevices of words \
 unwittingly memorized \
-Compass unscathed; i made \
+Compass unscathed; I made \
 a friend for life
 
 An unveiled embrace \
