@@ -1,8 +1,8 @@
 [submodule "public"]
 	path = public
-	url = https://github.com/theotherkhan/theotherkhan.github.io.git
+	url = https://github.com/monsoons-blog/monsoons-blog.github.io.git
 	branch = master
 [submodule "theotherkhanblog/public"]
 	path = theotherkhanblog/public
-	url = https://github.com/theotherkhan/theotherkhan.github.io.git
+	url = https://github.com/monsoons-blog/monsoons-blog.github.io.git
 	branch = main
