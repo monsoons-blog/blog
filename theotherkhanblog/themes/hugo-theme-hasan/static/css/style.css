@@ -4,10 +4,10 @@ html[theme='dark-mode'] {
 
 body {
   line-height: 1;
-  font: normal 15px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: normal 19px/2.0em 'adobe-garamond-pro', Garamond, Baskerville Old Face, Hoefler Text, Times New Roman, PT serif;
   color: #404040;
   line-height: 1.75;
-  letter-spacing: 0.008em;
+  letter-spacing: 0.01em;
 }
 
 a {
@@ -136,7 +136,7 @@ nav.navigation {
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
   margin: 0 auto;
-  text-align: right;
+  text-align: left;
   z-index: 100;
 }
 
@@ -145,7 +145,7 @@ nav.navigation a {
   right: 6px;
   padding: 8px 12px;
   color: #5badf0;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.35;
   border-radius: 3px;
 }
@@ -255,10 +255,10 @@ nav.navigation a.button {
 }
 
 .profile .avatar {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
+  display: block;
+  width: 45%;
+  height: 45%;
+  float: right;
 }
 
 .profile h1 {
@@ -285,7 +285,7 @@ nav.navigation a.button {
 }
 
 #list-page .item {
-  margin: 12px 0;
+  margin: 30px 0;
 }
 
 #list-page .title {
@@ -351,12 +351,12 @@ nav.navigation a.button {
 /* single page */
 #single {
   max-width: 680px;
-  margin: 60px auto 0 auto;
   padding: 0 64px;
+  margin-top: 50px;
 }
 
 #single .title {
-  text-align: center;
+  text-align: left;
   font-size: 32px;
   font-weight: 400;
   line-height: 48px;
@@ -374,7 +374,7 @@ nav.navigation a.button {
 }
 
 #single .tip {
-  text-align: center;
+  text-align: left;
   color: #8c8c8c;
   margin-top: 18px;
   font-size: 14px;
@@ -403,9 +403,8 @@ nav.navigation a.button {
 
 
 #archive {
-  max-width: 580px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 40px;
 }
 
 #archive .total {
