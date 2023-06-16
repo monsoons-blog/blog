@@ -9,6 +9,7 @@ enableComments = false
 
 Some whiteboard calligraphy (خُوش نَوِیسی) from NYC shairi sessions:
 
+![calligraphy](aleem.jpeg) 
 ![calligraphy](fehmida.jpeg) 
 ![calligraphy](bulleh_shah.jpeg)
 ![calligraphy](nmd.jpeg)
