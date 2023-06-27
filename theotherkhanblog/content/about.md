@@ -12,6 +12,7 @@ Hi! This is a blog for poetry, shairi notes, and other musings. Updated monthly.
 Current contributors: \
 Hasan Khan \
 Zainab Akhtar \
+Rachita Singh \
 Ishaan Saxena \
 mosambiyaar 
 
