@@ -7,7 +7,7 @@ authors = ["Shairi folks"]
 enableComments = false
 +++
 
-Hi! This is a blog for poetry, shairi notes, and other musings. Updated monthly. 
+Monsoons is a writer's collective based in New York City. We focus on writing poetry, organzing shairi nights, and hosting writing workshops. Updated monthly. 
 
 Current contributors: \
 Hasan Khan \

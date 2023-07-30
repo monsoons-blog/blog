@@ -7,4 +7,4 @@ authors = ["Hasan Khan"]
 enableComments = false
 +++
 
-<img src="ghazal40.jpg" alt="ghazal" width="290" height="700" title="ghazal">
+<img src="ghazal50.jpg" alt="ghazal" width="290" height="700" title="ghazal">
