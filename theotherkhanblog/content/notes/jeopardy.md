@@ -1,9 +1,9 @@
 +++
 title = "Shairi notes: Jeopardy"
 description = "Hugo, the world's fastest framework for building websites"
-date = "2023-07-06"
+date = "2022-07-06"
 aliases = ["hi"]
-authors = ["Hasan Khan"]
+authors = ["Munshi"]
 enableComments = false
 +++
 

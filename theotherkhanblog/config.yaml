@@ -78,6 +78,8 @@ params:
       path: /prose
     - name: Notes
       path: /notes
+    - name: Translit
+      path: /transliterations
     - name: Subscribe
       path: /subscribe
 
