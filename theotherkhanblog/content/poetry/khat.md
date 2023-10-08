@@ -1,5 +1,5 @@
 +++
-title = "کچھ خطوط كے راکھ"
+title = "کچھ خطوں كی راکھ"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2023-10-07"
 aliases = ["hi"]
@@ -8,5 +8,26 @@ enableComments = false
 +++
 
 
-<img src="khat2.jpg" alt="khat" width="190" height="790" title="khat">
+<img src="khat.jpg" alt="khat" width="210" height="800" title="khat">
 
+**** 
+
+kuchh khaton ki raakh \
+kuchh lafzon ki qurbani \
+ek bepurdah maazi \
+poshaak-e-azaadi mein
+
+kuchh bebas khwaishein \
+kuchh ikhtiyaar-e-zameer \
+guzri ek umr \
+dil ki anaa-e-makhfi mein
+
+kuchh zaheenon ki bazm \
+kuchh fankaaron ki ham kalaami \
+ek rumuuz-e-zaum \
+zabaan-e-ghair ki ravaani mein
+
+kuchh tahaffuz ke mehkuum \
+kuchh sarkash-o-inquilabi \
+qafas naseeb the sab \
+taameer-e-zaat ki bezaari mein
