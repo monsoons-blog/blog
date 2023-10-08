@@ -102,9 +102,9 @@ _kuredte ho jo ab raakh justujū kyā hai_
 
 **Qaafiya + Radeef templates:**
 
-_bujh chuki hai    __\_\_\_\_\_ ki roshni_
+____bujh chuki hai_    __\_\_\_\_\_ ki roshni_
 
-_dehekti rahi __              \_\_\_\_\_ se jali_
+____dehekti rahi_   __\_\_\_\_\_ se jali_
 
 
 **Word bank**
