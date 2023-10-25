@@ -4,6 +4,7 @@ title = "Fortalice"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2023-10-24"
 aliases = ["hi"]
+tags = ['Poetry']
 authors = ["Samee Ahmad"]
 enableComments = false
 +++

@@ -4,6 +4,7 @@ description = "Hugo, the world's fastest framework for building websites"
 date = "2023-02-11"
 aliases = ["hi"]
 authors = ["Hasan Khan"]
+tags = ['Poetry']
 enableComments = false
 +++
 

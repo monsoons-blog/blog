@@ -19,7 +19,12 @@
 
                 {{ " · "}}
 
-                {{ i18n "publishDate" . }}
+                
+
+                {{ range .Param "tags" }}
+                    {{ . }}
+                {{ end }}
+
                
             </span>
 

@@ -1,9 +1,9 @@
 +++
 title = "About Rumuuz"
 description = "Hugo, the world's fastest framework for building websites"
-date = "2020-02-02"
+date = "2023-02-02"
 aliases = ["hi"]
-authors = ["Shairi folks"]
+authors = ["Munshi"]
 enableComments = false
 +++
 

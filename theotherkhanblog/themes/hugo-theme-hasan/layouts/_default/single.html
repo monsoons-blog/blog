@@ -15,6 +15,16 @@
       </span>
 
         <time datetime="{{ .PublishDate }}">{{ i18n "publishDateFull" . }}</time>
+
+      <span class="split">
+        ·
+      </span>
+
+      {{ range .Param "tags" }}
+          {{ . }}
+      {{ end }}
+
+
        
     </div>
 
