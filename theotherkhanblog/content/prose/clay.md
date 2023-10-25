@@ -4,6 +4,7 @@ description = "Hugo, the world's fastest framework for building websites"
 date = "2023-09-03"
 aliases = ["hi"]
 authors = ["Mosambiyaar"]
+tags = ['Prose']
 enableComments = false
 +++
 
