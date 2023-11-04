@@ -19,11 +19,8 @@
 
                 {{ " · "}}
 
-                
+                <time datetime="{{ .PublishDate }}">{{ i18n "publishDateFull" . }}</time>
 
-                {{ range .Param "tags" }}
-                    {{ . }}
-                {{ end }}
 
                
             </span>

@@ -18,6 +18,7 @@ Some whiteboard calligraphy (خُوش نَوِیسی) from NYC shairi sessions:
 ![calligraphy](nmr.jpeg)
 ![calligraphy](agha.jpeg)
 ![calligraphy](roof.jpg)
+![calligraphy](ih.jpg)
 
 
 

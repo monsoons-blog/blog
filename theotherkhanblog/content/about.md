@@ -13,9 +13,14 @@ A note on the name: Rumuuz (رموز) is the plural form of [ramz]((https://www.
 
 Current contributors: \
 Samee Ahmad \
-Hasan Khan \
+Vishāl Kella \
 Zainab Akhtar \
+Mosambiyaar \
+Hasan Khan \
 Rachita Singh \
 Ishaan Saxena \
-Mosambiyaar A 
+Harpeet Singh \
+
+
+ 
 
