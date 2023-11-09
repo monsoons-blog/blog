@@ -1,6 +1,6 @@
 +++
 title = "Shairi notes: On community building"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-02-11"
 aliases = ["hi"]
 authors = ["Hasan Khan"]

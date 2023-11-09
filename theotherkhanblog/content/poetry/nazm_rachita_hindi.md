@@ -1,7 +1,7 @@
 +++
 title = "ज़िंदगी में लोगों की कमी नहीं"
 
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-06-26"
 aliases = ["hi"]
 authors = ["Rachita Singh"]

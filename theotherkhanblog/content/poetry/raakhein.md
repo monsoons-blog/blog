@@ -1,6 +1,6 @@
 +++
 title = "نئی نئی رگیں ہیں جلتی کیوں"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-11-04"
 aliases = ["hi"]
 authors = ["Mosambiyaar"]

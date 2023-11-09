@@ -1,6 +1,6 @@
 +++
 title = "1 dead at Arcade America"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2020-01-03"
 aliases = ["hi"]
 authors = ["Hasan Khan"]

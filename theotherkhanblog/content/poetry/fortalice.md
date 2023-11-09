@@ -1,7 +1,7 @@
 
 +++
 title = "Fortalice"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-10-24"
 aliases = ["hi"]
 tags = ['Poetry']

@@ -1,7 +1,7 @@
 
 +++
 title = "Aakhri Aadmi (Abridged)"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-11-04"
 aliases = ["hi"]
 authors = ["Intizaar Hussain"]

@@ -1,6 +1,6 @@
 +++
 title = "Dilli Ke Chatkhaaray"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2022-12-01"
 aliases = ["hi"]
 authors = ["Shahid Ahmad Dhelvi"]

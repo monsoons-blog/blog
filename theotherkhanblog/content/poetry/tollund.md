@@ -1,6 +1,6 @@
 +++
 title = "Tollund Man"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-02-10"
 aliases = ["hi"]
 authors = ["mosambiyaar"]

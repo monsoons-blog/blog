@@ -1,6 +1,6 @@
 +++
 title = "Getting Lucky"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-02-17"
 aliases = ["hi"]
 authors = ["Zainab Akhtar"]

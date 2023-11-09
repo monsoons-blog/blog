@@ -1,6 +1,6 @@
 +++
 title = "Boy of Clay"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-09-03"
 aliases = ["hi"]
 authors = ["Mosambiyaar"]

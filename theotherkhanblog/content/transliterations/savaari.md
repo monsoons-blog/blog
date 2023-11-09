@@ -1,6 +1,6 @@
 +++
 title = "Savaari"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2022-06-09"
 aliases = ["hi"]
 authors = ["Khalida Hussain"]

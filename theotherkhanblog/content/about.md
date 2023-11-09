@@ -1,6 +1,6 @@
 +++
 title = "About Rumuuz"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-02-02"
 aliases = ["hi"]
 authors = ["Munshi"]
@@ -19,7 +19,7 @@ Mosambiyaar \
 Hasan Khan \
 Rachita Singh \
 Ishaan Saxena \
-Harpeet Singh \
+Harpeet Singh 
 
 
  

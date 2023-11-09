@@ -1,6 +1,6 @@
 +++
 title = "Shairi notes: Jeopardy"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2022-07-06"
 aliases = ["hi"]
 authors = ["Munshi"]

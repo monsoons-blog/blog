@@ -1,6 +1,6 @@
 +++
 title = "Ancestor"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2022-02-06"
 aliases = ["hi"]
 authors = ["Hasan Khan"]

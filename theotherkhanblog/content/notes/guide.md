@@ -1,6 +1,6 @@
 +++
 title = "Writing Guide"
-description = "Hugo, the world's fastest framework for building websites"
+description = ""
 date = "2023-09-05"
 aliases = ["hi"]
 authors = ["Munshi"]
