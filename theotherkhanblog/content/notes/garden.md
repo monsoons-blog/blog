@@ -27,7 +27,8 @@ Khilna (bloom), murjhana (wither), rang-o-bu (color and fragrance), khamosh guft
 **Ashaar**
 
 
-<p style="text-align: center;"> میں نے دیکھا ہے بہاروں میں چمن کو جلتے <br>
+<p style="text-align: center; font-family: 'Noto Nastaliq Urdu';font-size: 22px;
+"> میں نے دیکھا ہے بہاروں میں چمن کو جلتے <br>
 ہے کوئی خواب کی تعبیر بتانے والا <p>
 
 <p style="text-align: center;"> Maiñ ne dekhā hai bahāroñ meñ chaman ko jalte <br>
@@ -35,7 +36,8 @@ hai koī ḳhvāb kī tābīr batāne vaalā <p>
 
 <p style="text-align: center;"> <a href="https://www.rekhta.org/ghazals/dost-ban-kar-bhii-nahiin-saath-nibhaane-vaalaa-ahmad-faraz-ghazals"> Ahmad Faraz </a> <p>
 
-<p style="text-align: center;"> تا پتا بوٹا بوٹا حال ہمارا جانے ہے <br>
+<p style="text-align: center; font-family: 'Noto Nastaliq Urdu';font-size: 22px;
+"> تا پتا بوٹا بوٹا حال ہمارا جانے ہے <br>
 جانے نہ جانے گل ہی نہ جانے باغ تو سارا جانے ہے <p>
 
 <p style="text-align: center;"> pattā pattā buuTā buuTā haal hamārā jaane hai <br>
@@ -44,7 +46,8 @@ jaane na jaane gul hī na jaane baaġh to saarā jaane hai
 
 <p style="text-align: center;"> <a href="https://www.rekhta.org/ghazals/pattaa-pattaa-buutaa-buutaa-haal-hamaaraa-jaane-hai-meer-taqi-meer-ghazals)"> Mir Taqi Mir </a><p>
 
-<p style="text-align: center;"> مگر دیوانہ تھا گل بھی کسو کا <br>
+<p style="text-align: center;  font-family: 'Noto Nastaliq Urdu';font-size: 22px;
+"> مگر دیوانہ تھا گل بھی کسو کا <br>
 کہ پیراہن میں سو جاگا رفو تھا <p>
 
 <p style="text-align: center;"> Magar diwana tha yeh gul bhi kasu ka <br>
@@ -52,7 +55,8 @@ Ki pairahan me sau jaagah rafoo tha <p>
 
 <p style="text-align: center;"> <a href= https://www.rekhta.org/ghazals/sahr-e-gah-e-iid-men-daur-e-subuu-thaa-meer-taqi-meer-ghazals-35)>Mir Taqi Mir</a><p>
 
-<p style="text-align: center;">  گلوں میں رنگ بھرے باد نوبہار چلے <br>
+<p style="text-align: center; font-family: 'Noto Nastaliq Urdu';font-size: 22px;
+">  گلوں میں رنگ بھرے باد نوبہار چلے <br>
 چلے بھی آؤ کہ گلشن کا کاروبار چلے <p>
 
 <p style="text-align: center;"> Guloñ meñ rañg bhare bād-e-nau-bahār chale <br>
@@ -62,7 +66,8 @@ chale bhī aao ki gulshan kā kārobār chale <p>
 <p style="text-align: center;"> <a href= https://www.rekhta.org/ghazals/gulon-men-rang-bhare-baad-e-nau-bahaar-chale-faiz-ahmad-faiz-ghazals >Faiz Ahmad Faiz</a> <p>
 
 
-<p style="text-align: center;">ہمیں سے رنگ گلستاں ہمیں سے رنگ بہار <br>
+<p style="text-align: center; font-family: 'Noto Nastaliq Urdu';font-size: 22px;
+">ہمیں سے رنگ گلستاں ہمیں سے رنگ بہار <br>
 ہمیں کو نظم گلستاں پہ اختیار نہیں <p>
 
 <p style="text-align: center;">  Hami se rang-e-chaman Hami se rang-e-bahaar <br>
