@@ -4,7 +4,7 @@ lang = ["ur"]
 description = ""
 date = "2024-02-22"
 aliases = ["hi"]
-authors = ["Arsalan"]
+authors = ["Arslan Mehal"]
 tags = ['Poetry']
 enableComments = false
 +++
