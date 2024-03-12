@@ -20,7 +20,8 @@ Hasan Khan \
 Rachita Singh \
 Vishāl Kella \
 Ishaan Saxena \
-Harpeet Singh 
+Harpeet Singh \
+Khattak 
 
 
  
