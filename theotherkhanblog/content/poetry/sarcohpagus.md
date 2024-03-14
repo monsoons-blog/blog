@@ -8,7 +8,7 @@ tags = ['Poetry']
 enableComments = false
 +++
 
-on that hot pivot of time \
+on that electric pivot of time \
 between beliefs, languages, sighs \
 young bodies disassembled \
 every bone studied, swapped \
@@ -17,11 +17,11 @@ strict and sunbound new
 
 sixty repeated impalements \
 scatter old sun to pieces \
-moth dust constellating \
+moth bodies constellating \
 cold star tissue new 
 
-The sky is a sarcophagus - definite and dead - to be stolen.
+The sky is a sarcophagus - definite and dead - to be read.
 
 and those crypts - memory, skin, language \
-become pyramids \
+age into pyramids \
 for viewing night
