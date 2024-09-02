@@ -10,6 +10,7 @@ enableComments = false
 
 Some whiteboard calligraphy (خُوش نَوِیسی) from NYC shairi sessions:
 
+![calligraphy](history2.jpeg)
 ![calligraphy](rumi.jpeg)
 ![calligraphy](ih.jpeg)
 ![calligraphy](workshop.jpeg)

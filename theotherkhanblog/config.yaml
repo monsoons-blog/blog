@@ -101,8 +101,11 @@ params:
       path: /notes
     - name: Translit
       path: /transliterations
+    - name: Library
+      path: /library
     - name: Subscribe
       path: /subscribe
+    
 
   # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
   customCSS:
