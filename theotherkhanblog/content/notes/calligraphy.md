@@ -8,7 +8,7 @@ tags = ['Notes']
 enableComments = false
 +++
 
-Some whiteboard calligraphy (خُوش نَوِیسی) from NYC shairi sessions:
+We often draw some whiteboard calligraphy (خُوش نَوِیسی) to accompany our sessions, heres a few recent ones: 
 
 ![calligraphy](history2.jpeg)
 ![calligraphy](rumi.jpeg)
