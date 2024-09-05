@@ -1,14 +1,14 @@
 +++
 title = "Shairi notes:   خُوش نَوِیسی"
 description = ""
-date = "2024-04-04"
+date = "2024-09-05"
 aliases = ["hi"]
 authors = ["Munshi"]
 tags = ['Notes']
 enableComments = false
 +++
 
-We often draw some whiteboard calligraphy (خُوش نَوِیسی) to accompany our sessions, heres a few recent ones: 
+We often draw whiteboard calligraphy (خُوش نَوِیسی) to accompany our sessions. A few recent ones: 
 
 ![calligraphy](history2.jpeg)
 ![calligraphy](rumi.jpeg)
