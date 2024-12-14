@@ -1,7 +1,7 @@
 +++
 title = "Shairi notes: Interconnections"
 description = ""
-date = "2023-01-20"
+date = "2024-12-14"
 aliases = ["hi"]
 authors = ["Munshi"]
 tags = ['Notes']
@@ -9,6 +9,6 @@ tags = ['Notes']
 enableComments = false
 +++
 
-![diagram](diagram.jpg)
+![diagram](diagram2.jpeg)
 
-The world of Urdu shairi is deeply interconnected - and in constant conversation with the wider world. This diagram depicts relationships between poets we covered during shairi in 2022.
+The world of Urdu shayari is deeply interconnected - and in constant conversation with the wider world. 

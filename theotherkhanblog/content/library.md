@@ -1,7 +1,7 @@
 +++
 title = "Library"
 description = ""
-date = "2020-02-02"
+date = "2024-06-02"
 aliases = ["hi"]
 authors = ["Munshi"]
 enableComments = false
