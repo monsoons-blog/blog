@@ -3,7 +3,7 @@ title = "Shairi notes:   خُوش نَوِیسی"
 description = ""
 date = "2024-09-05"
 aliases = ["hi"]
-authors = ["Hasan"]
+authors = ["Hasan Khan"]
 tags = ['Notes']
 enableComments = false
 +++
