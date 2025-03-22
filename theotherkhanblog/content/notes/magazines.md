@@ -8,5 +8,4 @@ tags = ['Notes']
 enableComments = false
 +++
 
-<object data="../presentations/Urdu_Magazines_Rumuuz.pdf#zoom=200" type="application/pdf" width=100% height="700px">
-</object>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRWvdCBzyQCua9jgpOc4OR2syzMxxR7Qdzt5UA5HND7BqnUPcYVSpwgJTlnm0R5wvrlcPGkFyE71LOZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="890" height="529" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
