@@ -1,6 +1,13 @@
-{{ if or (and .Site.Params.enableComments (ne .Params.enableComments false)) (eq .Params.enableComments true) }}
-  <div id="comment">
-    <!-- https://gohugo.io/templates/internal/#use-the-disqus-template -->
-    {{ template "_internal/disqus.html" . }}
-  </div>
+{{ if not .Params.disableComments }}
+  <section class="comments">
+    <h2>Comments</h2>
+    <script src="https://utteranc.es/client.js"
+            repo="theotherkhan/rumuuz-comments"
+            issue-term="https://github.com/theotherkhan/rumuuz-comments.git"
+            label="comment"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </section>
 {{ end }}

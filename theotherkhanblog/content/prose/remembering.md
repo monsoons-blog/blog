@@ -5,7 +5,7 @@ date = "2025-03-22"
 aliases = ["hi"]
 authors = ["Zainab Saeed"]
 tags = ['Prose']
-enableComments = true
+enableComments = false
 +++
 
 **Mama:** \
