@@ -13,7 +13,7 @@ enableComments = false
  **Overview**
 
 
-Originating in 7th century Arabia, this form of shairi has historically focused on matters of love (spiritual or worldy), with a particular emphasis on separation and reunification with the beloved. While the technical constraints are strict, ghazals do not need to have a single topic running through the poem. Rather, they emphasize a tone or a mood more than any narrative continuity. Often abstract, ghazals employ contradictions, opposites and multiplicities of meaning.
+Originating in 7th century Arabia, this form of shayari has historically focused on matters of love (spiritual or worldy), with a particular emphasis on separation and reunification with the beloved. While the technical constraints are strict, ghazals do not need to have a single topic running through the poem. Rather, they emphasize a tone or a mood more than any narrative continuity. Often abstract, ghazals employ contradictions, opposites and multiplicities of meaning.
 
 Common themes portrayed in Urdu ghazals:
 
@@ -43,29 +43,32 @@ Classical imagery evoked in Urdu ghazals:
 Ghazals are usually composed of five to fifteen shers. The poetic devices of the ghazal are illustrated in the following [ghazal](https://www.rekhta.org/ghazals/haalaat-ke-qadmon-pe-qalandar-nahiin-girtaa-qateel-shifai-ghazals?sort=popularity-desc) by Qateel Shifai:
 
 ![](https://lh6.googleusercontent.com/L-kfLNTCQnSQdAoxay325CMvJtiNNPinkPEvROFCnwfw8gmiTpKHNlinstsQ9avhVpidSk9Qppu3vYZWQVRdGFvGTW1Lf7MInCBZisftjeq_QuDYxcRbwEtKSaN8UwuqrqLy7VO4KncZYJPIoLDLcHY)
-**Radeef (ردیف)** is the repeating word in the second misrah of every sher of the ghazal.
+**Radeef (ردیف)** is the repeating refrain in the second misrah of every sher of the ghazal.
 
-**Qaafiya ( قافیہ)** is the rhyming suffix, word or pattern of words that precedes the radeef.   
+**Qaafiya ( قافیہ)** is the rhyming suffix, word or phrase that precedes the radeef.   
 
-**Matlah** is the first sher of the ghazal, where the radeef is present at the end of both misrahs, and **maqta** is the last sher of the ghazal, which _may_ include the **takhalus**, or pen name, of the poet.
+**Matlah** is the first sher of the ghazal, where the radeef is present at the end of both misrahs, and **Maqta** is the last sher of the ghazal, which _may_ include the **takhalus**, or pen name, of the poet.
 
-**Bahr** is the meter of the shairi. See the appendix for an in depth description of bahr.
+**Behr** is the meter of the shayari. See the appendix for an in depth description of behr.
 
 ****
 
 # **Nazms**
 
-The nazm is an umbrella term that includes all free verse poems without any explicit rules or structures in form. Often they are written on a particular topic or set of topics, and may have more narrative continuity than ghazals. Though there arent any formal constraints, the following poetic devices are used in nazms:
+Nazms encompass the world of free verse in Urdu poetry. While they don't necessitate following explicit rules or structures in form, the word nazm literally means "order" or "arrangement". Nazms are often focused on a single idea or theme (as opposed to the loosely connected ashaar of the ghazal), which give narrative structure to the poem. Though there are countless sub-genres, nazms can broadly be categorized into four buckets: 
+
+**Paaband Nazm (پابند نظم)**, which translates to "constrained" or "bound Nazm," is a form that adheres to specific rules of meter (behr) and rhyme (qaafiya, and often radeef), and can be seen as a bridge between the structured traditions of classical Urdu poetry and the freer forms of Nazm that emerged later. Key characteristics of the Paaband Nazm include following a consistent meter, having a rhyme scheme, and adhering to a stanzaic structure.   
+
+**Nazm-e-Mu'arra (نظمِ معرّیٰ)**, often translated as "blank verse" or sometimes "unrhymed poem," represents a significant departure from the rhyming traditions of classical work. While a consistent behr is still followed, and lines are of equal or regular syllabic length, it dispenses with end-rhymes (qaafiya) and refrains (radeef).
+
+**Azad Nazm (آزاد نظم)**, literally "free verse," represents a more radical departure from traditional poetic constraints than Nazm-e-Mu'arra. This form largely discards the conventional rules of behr, qaafiay and radeef, allowing for lines of unequal lengths and localized or sporadic use of rhyme. The form is focused on flexibility and naturalness, often seeking to capture the rhythms of natural speech.
+
+**Nasri Nazm (نثری نظم)**, or "prose poetry," is a hybrid literary form that deliberately blurs the traditional distinctions between prose and poetry. It is written in prose, appearing on the page in paragraphs rather than in verses or stanzas, but it employs many of the techniques and aims of shayari, such as vivid imagery, metaphor, heightened emotional tone, symbolism, and a focus on cadence within the prose sentences themselves.   
 
 ****
 
 
 # **Writing Prompts**
-
-**Tools**
-
-[Rekhta Taqti](https://rekhta.org/taqti?_ga=2.255774862.709840738.1690219100-1413768492.1688071477) \
-[Rekhta Qaafiya](https://www.rekhta.org/qaafiya)
 
 **Prompt 1** 
 
@@ -163,15 +166,25 @@ _Tajdid_ 
 
 ****
 
+# **Workshops**
 
-**Prompt 3**
+Since the publishing of this guide, we have conducted numerous writing workshops, materials linked below:
 
-Seeking and longing are two common themes in classical shairi. Write about longing - whether its about another person, an abstract ideal, or a spiritual destination. Was it something achieved or unfulfilled? Was the outcome as expected or different form what was imagined? 
+[The Garden](https://rumuuz.org/notes/garden/) \
+[On Intoxication](https://rumuuz.org/notes/intoxication/) \
+[Metapoetics](https://rumuuz.org/notes/metapoetics/) \
+[Translation](https://rumuuz.org/notes/translation/)
 
-<br> 
+****
 
 # **Appendix**
 
-[Principles of Metric Pattern in Urdu Poetry](https://www.rekhta.org/Ilm-E-Arooz)
+**Tools**
 
+[Rekhta Taqti](https://rekhta.org/taqti?_ga=2.255774862.709840738.1690219100-1413768492.1688071477) \
+[Rekhta Qaafiya](https://www.rekhta.org/qaafiya)
+
+**Further Resources**
+
+[Principles of Metric Pattern in Urdu Poetry](https://www.rekhta.org/Ilm-E-Arooz) \
 [Bahr: The Backbone of Shaa’irii ](https://alt.language.urdu.poetry.narkive.com/5JKvFNfp/urdu-bahrs-structure-and-history)
