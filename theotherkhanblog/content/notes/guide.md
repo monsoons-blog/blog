@@ -172,7 +172,7 @@ Since the publishing of this guide, we have conducted numerous writing workshops
 
 [The Garden](https://rumuuz.org/notes/garden/) \
 [On Intoxication](https://rumuuz.org/notes/intoxication/) \
-[Metapoetics](https://rumuuz.org/notes/metapoetics/) \
+[Metapoetics](https://rumuuz.org/notes/metapoetics/) 
 
 ****
 
