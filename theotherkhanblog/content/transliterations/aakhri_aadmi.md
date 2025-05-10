@@ -81,9 +81,9 @@ Chapparkhat - canopied bed
 
 ---
 
+<br>
 
-
-<div style="text-align: right"> 
+<div style="text-align: right; font-family: 'Noto Nastaliq Urdu';font-size: 22px; line-height: 2.5;", > 
 
 الیاسف اس شہر میں آخری آدمی تھا۔ اس نے عہد کیا تھا کہ معبود کی سوگند میں آدمی کی جون میں پیدا ہوا ہوں اور میں آدمی ہی کی جون میں مروں گا۔ اور اس نے آدمی کی جون میں رہنے کی آخر دم تک کوشش کی۔
 
