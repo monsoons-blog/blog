@@ -49,7 +49,7 @@ Ghazals are usually composed of five to fifteen shers. The poetic devices of the
 
 **Matlah** is the first sher of the ghazal, where the radeef is present at the end of both misrahs, and **Maqta** is the last sher of the ghazal, which _may_ include the **takhalus**, or pen name, of the poet.
 
-**Behr** is the meter of the shayari. See the appendix for an in depth description of behr.
+**Behr (بہر)** is the meter of the shayari. See the appendix for an in depth description of behr.
 
 ****
 
@@ -76,31 +76,55 @@ Urdu has many different words for, and ways of describing, fire. Listen to [this
 
 **Example Shers**
 
-_raushan jamāl-e-yār se hai anjuman tamām_
+<p style="text-align: left; font-family: 'Noto Nastaliq Urdu';font-size: 22px; line-height: 2;">
+روشن جمالِ یار سے ہے انجمن تمام<br>
+دہکا ہوا ہے آتشِ گُل سے چمن تمام
+<p>
 
+_raushan jamāl-e-yār se hai anjuman tamām_ \
 _dahkā huā hai ātish-e-gul se chaman tamām_
 
+-- Hasrat Mohani
+
 ****
 
-_jalte diyoñ meñ jalte gharoñ jaisī zau kahāñ_
+<p style="text-align: left; font-family: 'Noto Nastaliq Urdu';font-size: 22px; line-height: 2;">
+جلتے دیوں میں جلتے گھروں جیسی ضَو کہاں<br>
+سرکار روشنی کا مزا ہم سے پوچھیے
+<p>
 
+_jalte diyoñ meñ jalte gharoñ jaisī zau kahāñ_ \
 _sarkār raushnī kā mazā ham se pūchhiye_
 
+-- Khumar Barabankavi
+
 ****
 
-_apne jalne kā hamesha se tamāshā.ī huuñ_
+<p style="text-align: left; font-family: 'Noto Nastaliq Urdu';font-size: 22px; line-height: 2;">
+اپنے جلنے کا ہمیشہ سے تماشائی ہوں<br>
+آگ یہ کس نے لگائی مجھے معلوم نہیں<br>
+کبھی کرتی ہے الاؤ روشن<br>
+بھیڑیے دور بھگانے کے لیے
+<p>
 
-_aag ye kis ne lagā.ī mujhe ma.alūm nahīñ_
-
-_kabhī kartī hai alaao raushan_
-
+_apne jalne kā hamesha se tamāshā.ī huuñ_ \
+_aag ye kis ne lagā.ī mujhe ma.alūm nahīñ_ \
+_kabhī kartī hai alaao raushan_ \
 _bheḌiye duur bhagāne ke liye_
 
+-- Muhammed Aazam
+
 ****
 
-_jalā hai jism jahāñ dil bhī jal gayā hogā_
+<p style="text-align: left; font-family: 'Noto Nastaliq Urdu';font-size: 22px; line-height: 2;">
+جلا ہے جسم جہاں دل بھی جل گیا ہوگا<br>
+کریدتے ہو جو اب راکھ جستجو کیا ہے
+<p>
 
+_jalā hai jism jahāñ dil bhī jal gayā hogā_ \
 _kuredte ho jo ab raakh justujū kyā hai_
+
+-- Mirza Ghalib
 
 ****
 
@@ -113,25 +137,24 @@ ____dehekti rahi_   __\_\_\_\_\_ se jali_
 
 **Word bank**
 
-_Charaagh - oil lamp_
 
-_Aatish - fire_
+چَراغ - _Charaagh_ - oil lamp
 
-_Diya - lamp_
+آتش - _Aatish_ - fire
 
-_Dhuan - smoke_
+دیا - _Diya_ - lamp
 
-_Sholay -  flame, flash_
+دُھواں - _Dhuan_ - smoke
 
-_Angaara - embers_
+شُعْلے - _Sholay_ -  flame, flash
 
-_Chingari - spark_
+انگارہ - _Angaara_ - embers
 
-_Coila - coal_
+چنگاری - _Chingari_ - spark
 
-_Raakh - ash_
+ راکھ - _Raakh_ - ash
 
-_Alaao - bonfire_
+الاؤ - _Alaao_ - bonfire
 
 ****
 
@@ -143,8 +166,12 @@ Write about a metamorphosis. Think of a moment in time when life suddenly change
 
 **Example shers**
 
-_maiñ andar se kahīñ tabdīl honā chāhtā thā_ 
+<p style="text-align: left; font-family: 'Noto Nastaliq Urdu';font-size: 22px; line-height: 2;">
+میں اندر سے کہیں تبدیل ہونا چاہتا تھا<br>
+پرانی کینچلی میں ہی نیا ہونا تھا مجھ کو
+<p>
 
+_maiñ andar se kahīñ tabdīl honā chāhtā thā_ \
 _purānī keñchulī meñ hī nayā honā thā mujh ko_ 
 
 
@@ -158,11 +185,11 @@ _\_\_\_\_ ki tabdili_ 
 **Word bank**
 
 
-_Tabdeel_
+تبدیل - _Tabdeel_ - Change
 
-_Tahawul_
+تحَوّل - _Tahawul_ - apostasy, total change
 
-_Tajdid_ 
+تَجْدِید - _Tajdid_ - renewal
 
 ****
 
@@ -186,4 +213,6 @@ Since the publishing of this guide, we have conducted numerous writing workshops
 **Further Resources**
 
 [Principles of Metric Pattern in Urdu Poetry](https://www.rekhta.org/Ilm-E-Arooz) \
+[Primary Lesson in Poetry - Shamsur Rahman Faruqi](https://franpritchett.com/00fwp/srf/srf_aus20_lesson.pdf) \
 [Bahr: The Backbone of Shaa’irii ](https://alt.language.urdu.poetry.narkive.com/5JKvFNfp/urdu-bahrs-structure-and-history)
+
