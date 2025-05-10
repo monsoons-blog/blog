@@ -133,7 +133,7 @@ _____ kaaghaz ke pichhe
 
 [Anti-ghazal, meta-ghazal, free-ghazal](https://www.dawn.com/news/1181212)
 
-[Shairi Writing Guide](https://docs.google.com/document/d/19StPipH64m0iycT2ZHMDNlTDWn2ceFjY3tRhOMNwI9Y/edit)
+[Shairi Writing Guide](https://rumuuz.org/notes/guide/)
 
 
 
