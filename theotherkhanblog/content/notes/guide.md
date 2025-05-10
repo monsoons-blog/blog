@@ -55,7 +55,7 @@ Ghazals are usually composed of five to fifteen shers. The poetic devices of the
 
 # **Nazms**
 
-Nazms encompass the world of free verse in Urdu poetry. While they don't necessitate following explicit rules or structures in form, the word nazm literally means "order" or "arrangement". Nazms are often focused on a single idea or theme (as opposed to the loosely connected ashaar of the ghazal), which give narrative structure to the poem. Though there are countless sub-genres, nazms can broadly be categorized into four buckets: 
+Nazms encompass the world of free verse in Urdu poetry. While a nazm doesn't necessitate the following of explicit metrical rules or structures, the word nazm literally means "order" or "arrangement". Nazms are often focused on a single idea or theme (as opposed to the loosely connected ashaar of the ghazal), which give narrative structure to the poem. In the late 19th and 20th century, this form of shayari became the standard beaerer for addressing social and political conditions in Urdu. Though there are countless sub-genres, nazms can broadly be categorized into four buckets: 
 
 **Paaband Nazm (پابند نظم)**, which translates to "constrained" or "bound Nazm," is a form that adheres to specific rules of meter (behr) and rhyme (qaafiya, and often radeef), and can be seen as a bridge between the structured traditions of classical Urdu poetry and the freer forms of Nazm that emerged later. Key characteristics of the Paaband Nazm include following a consistent meter, having a rhyme scheme, and adhering to a stanzaic structure.   
 
