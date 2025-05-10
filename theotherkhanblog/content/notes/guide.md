@@ -1,7 +1,7 @@
 +++
-title = "Writing Guide"
+title = "Shayari Writing Guide"
 description = ""
-date = "2023-09-05"
+date = "2025-05-10"
 aliases = ["hi"]
 authors = ["Munshi"]
 tags = ['Notes']
