@@ -1,7 +1,7 @@
 +++
-title = "Shairi notes:   خُوش نَوِیسی"
+title = "Whiteboard Calligraphy"
 description = ""
-date = "2024-09-05"
+date = "2025-05-05"
 aliases = ["hi"]
 authors = ["Hasan Khan"]
 tags = ['Notes']
