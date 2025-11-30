@@ -8,6 +8,10 @@ tags = ['Prose']
 enableComments = false
 +++
 
+<b>Elijah Lewis</b> is an activist, poet and programmer living in Queens. During their college years studying computer science, they took Urdu courses out of convenience, never expecting to stumble into the world of Urdu poetry. The following essay explores four verses — from Sauda and Ghalib — and how they speak to love, annihilation, divinity, and the fragile mirrors through which we attempt to know the world. <br>
+
+****
+
 
 <p style="text-align: center">
 <i>I saw my Lord with the eye of the heart. I asked, ‘Who are You?’ He replied, ‘You.’</i><br>
@@ -26,16 +30,10 @@ essay, but image. Not exposition, but suggestion. The idiomatic nature of Persia
 meanings and flexible syntax, lends itself to this kind of mystical recursion. Ghazals don’t argue;
 they shimmer.
 
-During my college years studying computer science, I had to take a foreign language to graduate. I
-chose Urdu mostly out of convenience since my parents speak it, never expecting to stumble into
-a new world and fall in love with its poetry.
 
 The ghazal does not deliver meaning plainly. It traffics in paradox, multiplicity, and feeling. It
 doesn’t explain; it entangles. Its lines move like riddles whispered across centuries, riddles that
-ask not to be solved, but felt. Formally, the ghazal is a type of poem composed of discrete, self-contained couplets called *shers*. Though the couplets share a topic and each *sher* is made of two lines, known as *misrahs* , common meter and end-rhyme scheme, they are not expected to continue one another. Instead, they orbit the same philosophical constellation — each one complete, yet illuminated differently by the presence of other couplets.
-
-To enter a ghazal is to accept disorientation. You are not being led down a path; you are stepping
-into a mirrored chamber, each reflection offering a different glimpse of desire, loss, divinity, or
+ask not to be solved, but felt. Formally, the ghazal is a type of poem composed of discrete, self-contained couplets called *shers*. Though the couplets share a refrain and a common meter and end-rhyme scheme, they are not expected to continue one another. Instead, they orbit the same philosophical constellation — each one complete, yet illuminated differently by the presence of other couplets. To enter a ghazal is to accept disorientation. You are not being led down a path; you are stepping into a mirrored chamber, each reflection offering a different glimpse of desire, loss, divinity, or
 doubt.
 
 These poems live in a shared symbolic universe. A rose is never just a flower. A garden is never
@@ -69,7 +67,7 @@ even then, the servants of love were already at work.
 
 When I first read this couplet in class, I didn't quite grasp it. The Persian vocabulary alone slowed
 me down. Yet something about the imagery played on repeat. “The bird of the garden” — how
-strange and delicate. The servants of love weaving flowers felt mythic, calming. It wasn’t
+strange and delicate. The servants of love weaving flowers, how mythic and calming. It wasn’t
 until my professor explained the symbols I’d encountered that I realized I’d stumbled into a
 new dimension.
 
@@ -210,7 +208,7 @@ searching for longing.
 
 These couplets are not just expressions of feeling. They are ontological investigations, asking:
 What is love? What is being? What is truth? What burns away when we ask too many questions —
-and what, if anything, remains?In Sauda, love predates creation. In Ghalib, it shatters mirrors, burns houses, and questions the very fact of being. These are not poems to debug, they are poems to survive. Each *sher* leaves you a little less certain, a little more undone.
+and what, if anything, remains? In Sauda, love predates creation. In Ghalib, it shatters mirrors, burns houses, and questions the very fact of being. These are not poems to debug, they are poems to survive. Each *sher* leaves you a little less certain, a little more undone.
 
 One commonly thinks of the Matrix, of taking the red pill and struggling with the truths it exposes
 us to. But, the Ghazal came well before the Matrix movies were released. It depicted transness
@@ -218,12 +216,12 @@ that the Wachowski sisters may have stepped into unknowingly. The *shers* are no
 gendered. The beloved's gender is never specified. And indeed, poets like Ghalib were witnessing
 the devastation of colonialism. A colonialism that crystalized the binary genders in a region of the
 world where languages like Bangla were not gendered but became so with time. Every queer
-person has felt the ache presented in these *shers, has felt the discomfort of knowing they are not
+person has felt the ache presented in these *shers*, has felt the discomfort of knowing they are not
 whom the world told them they are. The ghazal's universality shines in even Hollywood, where the
 Wachowski sisters likely knew nothing of ghazals or sufism, but wished to portray this ache and
 what it is to witness the mirror melt.
 
-As an engineer, I try to mirror the world in code — to represent it, compute it, solve it. But code is not the world. It is a translation. And in a culture that treats science as the only valid form of
+As an engineer, I try to mirror the world in code: to represent it, compute it, solve it. But code is not the world. It is a translation. And in a culture that treats science as the only valid form of
 knowing, these poets remind us of something older: there are other ways of understanding. The
 ghazal doesn’t offer certainty. It offers recursion. Reverberation. A thousand mirrors reflecting one
 another in paradox and pain.
