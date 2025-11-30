@@ -18,12 +18,13 @@ Zainab Akhtar \
 Zeba Siddiqui <br> 
 Arslan Mehal \
 Tabraiz Lodhi \
-Mosambiyaar \
-Saakin \
 Hasan Khan \
-Elijah Lewis \
 Rachita Singh \
 Vishāl Kella
+Mosambiyaar \
+Saakin \
+Roze \
+
 
 Site maintained by Hasan Khan.
 
