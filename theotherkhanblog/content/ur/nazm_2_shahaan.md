@@ -5,7 +5,7 @@ description = ""
 date = "2025-10-31"
 aliases = ["hi"]
 authors = ["Saakin"]
-tags = ['Poetry']
+tags = ['Nazm']
 enableComments = false
 +++
 

@@ -5,7 +5,7 @@ description = ""
 date = "2025-11-23"
 aliases = ["hi"]
 authors = ["Hasan Khan"]
-tags = ['Poetry']
+tags = ['Ghazal']
 enableComments = false
 +++
 

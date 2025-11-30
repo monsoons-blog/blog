@@ -2,10 +2,10 @@
 title = "خون آشامی"
 lang = ["ur"]
 description = ""
-date = "2025-10-23"
+date = "2024-02-22"
 aliases = ["hi"]
 authors = ["Arslan Mehal"]
-tags = ['Poetry']
+tags = ['Nazm']
 enableComments = false
 +++
 

@@ -85,9 +85,7 @@ are not just human lovers or poets, but cosmic weavers, forces responsible for t
 world together. Not just for love, but for the vulnerability it demands. The trap (دام / dām) isn’t
 sinister, but it is binding. To live is to be ensnared by beauty, by feeling, by the ache of wanting. In this vision, love is not an emotion; it is a law of nature that predates matter. It doesn’t follow creation — it initiates it.
 
-I’ve spent most of my life surrounded by systems — mathematical, computational, efficient. We live
-in a world that privileges empiricism. We're taught about the Big Bang, dark matter, galaxies
-spinning. But Sauda offers a different origin story. What if it isn’t logic that holds the universe
+As a computer scientist, I’ve spent most of my life surrounded by systems — mathematical, computational, efficient. We live in a world that privileges empiricism. We're taught about the Big Bang, dark matter, galaxies spinning. But Sauda offers a different origin story. What if it isn’t logic that holds the universe
 together, but longing?
 
 Even in calling them “servants,” Sauda flips the power dynamic. They are not the origin, only the
@@ -205,7 +203,7 @@ intellect and the soul at once. The ghazal does not seek clarity. It seeks the s
 The ache. In two lines, Ghalib doesn’t just ask us to ponder the mystery of existence, he makes us
 feel it in our chest. And indeed, that is why he is called Ghalib — the boss, the conqueror. I am just an engineer, trained to keep data safe in a database. But I need Ghalib to understand who I am
 outside of that. To glimpse the part of myself that aches, fractures, burns — and still returns,
-searching for longing. Something like truth.
+searching for longing. 
 <br>
 
 **What Remains After Knowing**

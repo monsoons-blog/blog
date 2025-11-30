@@ -11,19 +11,19 @@ Rumuuz is a poetry group and writer's collective based in New York City. We host
 
 A note on the name: Rumuuz (رموز) is the plural form of [ramz](https://www.rekhtadictionary.com/meaning-of-ramz), meaning sign, code or hint. 
 
-Current contributors: \
+Current contributors: <br><br>
 Zainab Saeed \
 Samee Ahmad \
 Zainab Akhtar \
-Saakin \
-Zeba Siddiqui 
+Zeba Siddiqui <br> 
 Arslan Mehal \
 Tabraiz Lodhi \
 Mosambiyaar \
+Saakin \
 Hasan Khan \
 Elijah Lewis \
 Rachita Singh \
-Vishāl Kella \
+Vishāl Kella
 
 Site maintained by Hasan Khan.
 

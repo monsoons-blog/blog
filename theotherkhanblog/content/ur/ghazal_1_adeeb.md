@@ -5,7 +5,7 @@ description = ""
 date = "2025-08-15"
 aliases = ["hi"]
 authors = ["Adeeb Dholakia"]
-tags = ['Poetry']
+tags = ['Ghazal']
 enableComments = false
 +++
 
