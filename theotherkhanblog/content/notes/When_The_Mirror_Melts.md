@@ -3,12 +3,12 @@ title = "When The Mirror Melts"
 description = ""
 date = "2025-08-16"
 aliases = ["hi"]
-authors = ["Elijah Lewis"]
+authors = ["Roze"]
 tags = ['Prose']
 enableComments = false
 +++
 
-<b>Elijah Lewis</b> is an activist, poet and programmer living in Queens. During their college years studying computer science, they took heritage Urdu courses, never expecting to stumble into the world of Urdu poetry. The following essay explores four verses — from Sauda and Ghalib — and how they speak to love, annihilation, divinity, and the fragile mirrors through which we attempt to know the world. <br>
+<b>Roze</b> is an activist, poet and programmer living in Queens. During their college years studying computer science, they took heritage Urdu courses, never expecting to stumble into the world of Urdu poetry. The following essay explores four verses — from Sauda and Ghalib — and how they speak to love, annihilation, divinity, and the fragile mirrors through which we attempt to know the world. <br>
 
 ****
 
