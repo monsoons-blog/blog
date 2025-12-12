@@ -8,7 +8,10 @@ tags = ['Notes']
 enableComments = false
 +++
 
-<div style="max-width:1000px">
-        <iframe src="/Design_Presentation.pdf" width="100%" height="500"> </iframe>
+
+<div class="image-gallery">
+  <img src="/images/palimpsests_slides/Design Presentation_2.jpeg" style="width:100%" alt="Slide 1">
+  <img src="/images/palimpsests_slides/Design Presentation_3.jpeg" style="width:100%" alt="Slide 1">
 </div>
+
 
