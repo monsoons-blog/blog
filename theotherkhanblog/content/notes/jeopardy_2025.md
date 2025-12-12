@@ -1,7 +1,7 @@
 +++
-title = "Shairi notes: Jeopardy"
+title = "Shayari Jeopardy"
 description = ""
-date = "2022-07-06"
+date = "2025-12-12"
 aliases = ["hi"]
 authors = ["Munshi"]
 tags = ['Notes']

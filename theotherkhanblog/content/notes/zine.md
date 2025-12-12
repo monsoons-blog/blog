@@ -8,4 +8,7 @@ tags = ['Notes']
 enableComments = false
 +++
 
-<iframe src="/Design_Presentation.pdf" width="100%" height="600px"> </iframe>
+<div style="width:100%; height:70vh">
+        <iframe src="/Design_Presentation.pdf" width="100%" height="100%"> </iframe>
+</div>
+
