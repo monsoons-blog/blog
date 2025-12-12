@@ -18,9 +18,10 @@ Zainab Akhtar \
 Zeba Siddiqui <br> 
 Arslan Mehal \
 Tabraiz Lodhi \
+Kirat Pandher \
 Hasan Khan \
 Rachita Singh \
-Vishāl Kella
+Vishāl Kella <br>
 Mosambiyaar \
 Saakin \
 Roze <br>
