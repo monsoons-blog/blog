@@ -39,7 +39,7 @@ doubt.
 These poems live in a shared symbolic universe. A rose is never just a flower. A garden is never
 just a garden. Poets borrow, subvert, and respond to one another across time echoing images and
 lines like call and response across centuries. The ghazal is not repetition, but recursion.
-This essay explores four couplets — from Sauda and Ghalib — and how they speak to love,
+This essay explores four couplets from Sauda and Ghalib and how they speak to love,
 annihilation, the divine, and ultimately, the fragile mirrors through which we attempt to know the
 world.
 <br><br>
@@ -62,12 +62,12 @@ Commentary:\
 Mirza Muhammad Rafi Sauda (1713–1781) is often remembered for satire and spectacle, but this
 couplet gestures toward something quieter, more elemental. A creation myth without gods. A
 beginning stitched not by science or scripture, but by desire.
-He imagines a time before time, before spring, before the world had even unfurled its colors —and
+He imagines a time before time, before spring, before the world had even unfurled its colors — and
 even then, the servants of love were already at work.
 
 When I first read this couplet in class, I didn't quite grasp it. The Persian vocabulary alone slowed
-me down. Yet something about the imagery played on repeat. “The bird of the garden” — how
-strange and delicate. The servants of love weaving flowers, how mythic and calming. It wasn’t
+me down. Yet something about the imagery played on repeat. The "bird of the garden,” how
+strange and delicate. The "servants of love weaving flowers," how mythic and calming. It wasn’t
 until my professor explained the symbols I’d encountered that I realized I’d stumbled into a
 new dimension.
 
@@ -83,7 +83,7 @@ are not just human lovers or poets, but cosmic weavers, forces responsible for t
 world together. Not just for love, but for the vulnerability it demands. The trap (دام / dām) isn’t
 sinister, but it is binding. To live is to be ensnared by beauty, by feeling, by the ache of wanting. In this vision, love is not an emotion; it is a law of nature that predates matter. It doesn’t follow creation — it initiates it.
 
-As a computer scientist, I’ve spent most of my life surrounded by systems — mathematical, computational, efficient. We live in a world that privileges empiricism. We're taught about the Big Bang, dark matter, galaxies spinning. But Sauda offers a different origin story. What if it isn’t logic that holds the universe
+As a computer scientist, I’ve spent most of my life surrounded by systems: mathematical, computational, efficient. We live in a world that privileges empiricism. We're taught about the Big Bang, dark matter, galaxies spinning. But Sauda offers a different origin story. What if it isn’t logic that holds the universe
 together, but longing?
 
 Even in calling them “servants,” Sauda flips the power dynamic. They are not the origin, only the
@@ -179,7 +179,7 @@ If Sauda speaks from the edge of creation, and Ghalib’s earlier couplets peer 
 wreckage, this one speaks from the eye of the storm. Existence itself is catastrophe.
 Another of Ghalib’s, this couplet begins with a near-theological certainty: when there was nothing,
 there was God. Even now, if there were nothing, God would remain. But then the second line turns
-inward — and downward. It is my being that drowned me. As if to say: awareness is not
+inward and downward. It is my being that drowned me. As if to say: awareness is not
 transcendence. It is weight. It is ruin.
 
 This is Ghalib at his most destabilizing. The *sher* opens like a prayer and closes like a paradox.
