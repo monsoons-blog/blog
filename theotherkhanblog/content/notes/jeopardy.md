@@ -1,5 +1,5 @@
 +++
-title = "Jeopardy!"
+title = "Jeopardy"
 description = ""
 date = "2025-12-12"
 aliases = ["hi"]

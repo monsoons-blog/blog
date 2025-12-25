@@ -8,7 +8,6 @@ tags = ['Notes']
 enableComments = false
 +++
 
-
 <div class="image-gallery">
 <img src="/images/palimpsests_slides/Design Presentation_2.jpeg" style="width:100%" alt="Slide 1">
 <img src="/images/palimpsests_slides/Design Presentation_3.jpeg" style="width:100%" alt="Slide 2">
@@ -22,5 +21,8 @@ enableComments = false
 <img src="/images/palimpsests_slides/Design Presentation_11.jpeg" style="width:100%" alt="Slide 10">
 <img src="/images/palimpsests_slides/Design Presentation_13.jpeg" style="width:100%" alt="Slide 11">
 </div>
+
+The above presentation was given at our zine launch event, providing the context for how we designed and compiled the zine as a palimpsest.
+
 
 

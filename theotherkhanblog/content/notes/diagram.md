@@ -1,5 +1,5 @@
 +++
-title = "Shairi notes: Interconnections"
+title = "Shayari notes: Interconnections"
 description = ""
 date = "2024-12-14"
 aliases = ["hi"]
