@@ -15,7 +15,7 @@ Catching dust—dirt—a dearth\
 of hope\
 reeking\
 of familiar scents—rotten nostalgia\
-Shai\
+_Shai_\
 outgrowing its time\
 decaying in loss—longing\
 Waiting to be salvaged\
@@ -26,7 +26,7 @@ Nor add new ones\
 full to the brim—\
 you will see it too\
 When you open an obscure door\
-In search of Noor\
+In search of _Noor_\
 and find a garret\
 holding within, a time ago\
 Wrapped in sheets—shields\
@@ -47,7 +47,7 @@ variegated\
 stunning sandstone\
 Add an ascent\
 in pink _sangemarmar_\
-Insert a roshan sehn\
+Insert a _roshan sehn_\
 opening up to the blue\
 To touch from within\
 with bare, yearning hands\
@@ -56,6 +56,6 @@ The rain’s roar
 
 
 
-Just as the aab-o-taab is set to dance\
+Just as the _aab-o-taab_ is set to dance\
 You're asked,\
 not to forget the metal bars
