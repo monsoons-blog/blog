@@ -17,7 +17,7 @@ Haseeb Javed \
 Sanya Mansoor \
 Naseer Ahmad \
 Tabraiz Lodhi \
-Harris Choudry \
+Harris Chowdhary \
 Zainab Saeed \
 Adeeb Dholakia \
 Samee Ahmad \
