@@ -1,7 +1,6 @@
 +++
 title = "Safaranama-e-Haashiya"
 description = ""
-lang = ["ur"]
 date = "2026-06-13"
 aliases = ["hi"]
 authors = ["Umair Khakoo"]
@@ -27,8 +26,8 @@ enableComments = false
 ۵. اختتام\
  انسان دعویٰ کرتا ہے کہ وہ اس زمین کا خالق اور شہر اس کا متن ہے، مگر یہ جنگل اور اس کے حاشیے اس بات کی گواہی دیتے ہیں کہ اصل زندگی ہمیشہ قید خانے کی تحریر کے باہر، خود رو پودوں کی آزاد اور سبز لکیر میں آباد رہتی ہے۔
 
-
 <p>
 
 <br>
+
 ![safarnama](map.jpg)

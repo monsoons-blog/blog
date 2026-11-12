@@ -34,7 +34,14 @@
     {{ end }}
 
 
-    <div class="content">
+    {{- $narrowTags := slice "prose" "short story" "mazmoon" -}}
+    {{- $narrow := false -}}
+    {{- range .Params.tags -}}
+      {{- if in $narrowTags (lower .) -}}
+        {{- $narrow = true -}}
+      {{- end -}}
+    {{- end -}}
+    <div class="content{{ if $narrow }} content-narrow{{ end }}">
       {{ .Content }}
     </div>
 
