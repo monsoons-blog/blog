@@ -2,7 +2,7 @@
 title = "دار الحرب میں طالبِ علم"
 lang = ["ur"]
 description = ""
-date = "2025-10-14"
+date = "2026-10-14"
 aliases = ["hi"]
 authors = ["باہوؔ"]
 tags = ['Poetry']
