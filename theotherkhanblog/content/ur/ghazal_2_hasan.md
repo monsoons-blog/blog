@@ -1,8 +1,8 @@
 +++
-title = "بولنے کے لیے تو کچھ نہ رہا ہم نظم کی طرف مڑے"
+title = "بولنے کے لیے تو کچھ نہ رہا"
 lang = ["ur"]
 description = ""
-date = "2026-10-23"
+date = "2026-09-23"
 aliases = ["hi"]
 authors = ["حسن خان"]
 tags = ['Ghazal']
