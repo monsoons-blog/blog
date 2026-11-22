@@ -2,8 +2,13 @@
 {{ partial "profile.html" . }}
 
 <div id="list-page" style="margin-left: 0%;">
-    {{ $pages := .Site.RegularPages }}
-    {{ $paginator := .Paginate ($pages) }}
+    {{ $pages := slice }}
+    {{ range .Site.RegularPages }}
+      {{ if not .Params.unlisted }}
+        {{ $pages = $pages | append . }}
+      {{ end }}
+    {{ end }}
+    {{ $paginator := .Paginate $pages }}
     {{ range $paginator.Pages }}
         {{ $title := .Title }}
         {{ $summary := .Summary }}

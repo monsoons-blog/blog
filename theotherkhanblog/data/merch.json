@@ -1,0 +1,54 @@
+{
+  "currency": "usd",
+  "shippingCents": 500,
+  "shippingLabel": "Shipping",
+  "shippingRateId": "",
+  "successUrl": "https://rumuuz.org/thanks/",
+  "allowedCountries": ["US", "CA", "GB", "AU", "NZ", "IE", "DE", "FR", "NL", "SE", "NO", "DK", "ES", "IT", "PT", "BE", "CH", "AT", "IN", "PK", "BD", "AE", "SG", "JP", "MX", "BR"],
+  "items": [
+    {
+      "id": "zine-issue-i",
+      "name": "Zine Issue I",
+      "description": "The first printed issue of Rumuuz.",
+      "image": "/images/merch/zine-issue-i.svg",
+      "priceCents": 1500,
+      "productId": "",
+      "priceId": "",
+      "paymentLinkId": "",
+      "paymentLink": ""
+    },
+    {
+      "id": "zine-issue-ii",
+      "name": "Zine Issue II",
+      "description": "The second issue, on the margin. Poems, stories, essays, and marginalia.",
+      "image": "/images/merch/zine-issue-ii.svg",
+      "priceCents": 1500,
+      "productId": "",
+      "priceId": "",
+      "paymentLinkId": "",
+      "paymentLink": ""
+    },
+    {
+      "id": "shayar-poster",
+      "name": "Shayar Poster",
+      "description": "A poster from Rumuuz.",
+      "image": "/images/merch/shayar-poster.svg",
+      "priceCents": 2000,
+      "productId": "",
+      "priceId": "",
+      "paymentLinkId": "",
+      "paymentLink": ""
+    },
+    {
+      "id": "rumuuz-tote-bag",
+      "name": "Rumuuz Tote bag",
+      "description": "A tote bag from Rumuuz.",
+      "image": "/images/merch/rumuuz-tote-bag.svg",
+      "priceCents": 2500,
+      "productId": "",
+      "priceId": "",
+      "paymentLinkId": "",
+      "paymentLink": ""
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{{- $cents := . -}}
+{{- $dollars := div $cents 100 -}}
+{{- $rem := mod $cents 100 -}}
+{{- if eq $rem 0 -}}${{ $dollars }}{{- else -}}${{ printf "%d.%02d" $dollars $rem }}{{- end -}}

@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $catalog := .Site.Data.merch }}
+<section id="single">
+  <h1 class="title">{{ .Title }}</h1>
+  <div class="content merch merch-catalog">
+    <p class="merch-intro">Printed things from Rumuuz. Purchase opens Stripe Checkout, where you enter your name, shipping address, and payment. Prices are in US dollars.{{ if gt $catalog.shippingCents 0 }} Shipping is {{ partial "price.html" $catalog.shippingCents }} and is added before you pay.{{ else }} Shipping is included.{{ end }} You can change the quantity on the Stripe page.</p>
+    <ul class="merch-list">
+      {{ range $catalog.items }}
+        <li class="merch-item">
+          {{ if .image }}<img class="merch-image" src="{{ .image | relURL }}" alt="{{ .name }}">{{ end }}
+          <h2>{{ .name }}</h2>
+          <p class="merch-price">{{ partial "price.html" .priceCents }}</p>
+          <p>{{ .description }}</p>
+          {{ if .paymentLink }}
+            <a class="merch-buy" href="{{ .paymentLink }}">Purchase</a>
+          {{ else }}
+            <p class="merch-note">Stripe Checkout is not connected for this item yet.</p>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
