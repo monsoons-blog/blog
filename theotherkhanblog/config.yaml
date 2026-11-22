@@ -33,7 +33,8 @@ permalinks:
 
 paginate: 10
 
-googleAnalytics: your-google-analytics-id
+# GA4 measurement ID (Admin → Data streams → Web). Must start with G-.
+googleAnalytics: G-KSFTNE5PT5
 disqusShortname: disqus_K7fdrAybT0
 
 # Hugo Configure Markup
@@ -75,7 +76,7 @@ params:
   enableRSS: true
   # To enable comments, you may need to set `disqusShortname`
   enableComments: false
-  # To enable comments, you may need to set `googleAnalytics`
+  # Injects the GA4 tag when googleAnalytics above is a G- measurement ID
   enableGoogleAnalytics: true
   # To enable table of content, you could set `showToc: true`, default is `false`
   showToc: true
