@@ -3,11 +3,17 @@
 <section id="single">
   <h1 class="title">{{ .Title }}</h1>
   <div class="content merch merch-catalog">
-    <p class="merch-intro">Printed things from Rumuuz. Purchase opens Stripe Checkout, where you enter your name, shipping address, and payment. Prices are in USD and we only ship in the US.{{ if gt $catalog.shippingCents 0 }} Shipping (~2 weeks) is {{ partial "price.html" $catalog.shippingCents }} and is added before you pay{{ else }} Shipping is included.{{ end }}.</p>
+    <p class="merch-intro">Printed things from Rumuuz. Purchase opens Stripe Checkout, where you enter your name, payment information, and shipping address (or type "session" if you'd like to pickup in-person at our next session). Prices are in USD and we only ship in the US.{{ if gt $catalog.shippingCents 0 }} Shipping is {{ partial "price.html" $catalog.shippingCents }} and is added before you pay. The Rumuuz team will mail you your merch within ~2 weeks of ordering{{ else }} Shipping is included.{{ end }}.</p>
     <ul class="merch-list">
       {{ range $catalog.items }}
         <li class="merch-item">
-          {{ if .image }}<img class="merch-image" src="{{ .image | relURL }}" alt="{{ .name }}">{{ end }}
+          {{ if .image }}
+            {{ if .paymentLink }}
+              <a class="merch-image-link" href="{{ .paymentLink }}"><img class="merch-image" src="{{ .image | relURL }}" alt="{{ .name }}"></a>
+            {{ else }}
+              <img class="merch-image" src="{{ .image | relURL }}" alt="{{ .name }}">
+            {{ end }}
+          {{ end }}
           <h2>{{ .name }}</h2>
           <p class="merch-meta"><span class="merch-price">{{ partial "price.html" .priceCents }}</span><span class="merch-stock">In Stock</span></p>
           <p>{{ .description }}</p>

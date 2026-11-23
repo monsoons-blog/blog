@@ -1,6 +1,6 @@
 {
   "currency": "usd",
-  "shippingCents": 200,
+  "shippingCents": 300,
   "shippingLabel": "Shipping",
   "shippingRateId": "shr_1Uen4ACmOnyXdF1QaLtFq6bF",
   "successUrl": "https://rumuuz.org/thanks/",
