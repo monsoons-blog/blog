@@ -2,6 +2,29 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
 <meta name="viewport" content="width=device-width,minimum-scale=1">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+{{ $shareTitle := .Site.Title }}
+{{ with .Params.Title }}{{ $shareTitle = printf "%s | %s" . $.Site.Title }}{{ end }}
+{{ $shareDescription := .Site.Params.description | default .Site.Title }}
+{{ if .Description }}
+  {{ $shareDescription = .Description }}
+{{ else if .IsPage }}
+  {{ with .Summary }}{{ $shareDescription = . | plainify }}{{ end }}
+{{ end }}
+{{ $shareImage := "https://rumuuz.org/images/rumuuz_thumbnail.png" }}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ $shareTitle }}">
+<meta property="og:description" content="{{ $shareDescription }}">
+<meta property="og:url" content="https://rumuuz.org{{ .RelPermalink }}">
+<meta property="og:image" content="{{ $shareImage }}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1060">
+<meta property="og:image:height" content="1060">
+<meta property="og:image:alt" content="{{ .Site.Title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $shareTitle }}">
+<meta name="twitter:description" content="{{ $shareDescription }}">
+<meta name="twitter:image" content="{{ $shareImage }}">
 {{ hugo.Generator }}
 {{/* NOTE: For Production make sure you add `HUGO_ENV="production"` before your build command */}}
 {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
