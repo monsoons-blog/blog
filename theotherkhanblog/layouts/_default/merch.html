@@ -3,7 +3,7 @@
 <section id="single">
   <h1 class="title">{{ .Title }}</h1>
   <div class="content merch merch-catalog">
-    <p class="merch-intro">Printed things from Rumuuz. Purchase opens Stripe Checkout, where you enter your name, shipping address, and payment. Prices are in US dollars.{{ if gt $catalog.shippingCents 0 }} Shipping is {{ partial "price.html" $catalog.shippingCents }} and is added before you pay.{{ else }} Shipping is included.{{ end }} You can change the quantity on the Stripe page.</p>
+    <p class="merch-intro">Printed things from Rumuuz. Purchase opens Stripe Checkout, where you enter your name, shipping address, and payment. Prices are in US dollars.{{ if gt $catalog.shippingCents 0 }} Shipping (1-2 weeks) is {{ partial "price.html" $catalog.shippingCents }} and is added before you pay{{ else }} Shipping is included.{{ end }}.</p>
     <ul class="merch-list">
       {{ range $catalog.items }}
         <li class="merch-item">

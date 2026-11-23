@@ -1,10 +1,37 @@
 {
   "currency": "usd",
-  "shippingCents": 500,
+  "shippingCents": 200,
   "shippingLabel": "Shipping",
-  "shippingRateId": "",
+  "shippingRateId": "shr_1UejW6QZ1gYzhQwNSTHiSF4m",
   "successUrl": "https://rumuuz.org/thanks/",
-  "allowedCountries": ["US", "CA", "GB", "AU", "NZ", "IE", "DE", "FR", "NL", "SE", "NO", "DK", "ES", "IT", "PT", "BE", "CH", "AT", "IN", "PK", "BD", "AE", "SG", "JP", "MX", "BR"],
+  "allowedCountries": [
+    "US",
+    "CA",
+    "GB",
+    "AU",
+    "NZ",
+    "IE",
+    "DE",
+    "FR",
+    "NL",
+    "SE",
+    "NO",
+    "DK",
+    "ES",
+    "IT",
+    "PT",
+    "BE",
+    "CH",
+    "AT",
+    "IN",
+    "PK",
+    "BD",
+    "AE",
+    "SG",
+    "JP",
+    "MX",
+    "BR"
+  ],
   "items": [
     {
       "id": "zine-issue-i",
@@ -12,32 +39,32 @@
       "description": "The first printed issue of Rumuuz.",
       "image": "/images/merch/zine-issue-i.svg",
       "priceCents": 1500,
-      "productId": "",
-      "priceId": "",
-      "paymentLinkId": "",
-      "paymentLink": ""
+      "productId": "prod_Vg5hp4Xu1wKh12",
+      "priceId": "price_1UejW8QZ1gYzhQwNPDu9K61H",
+      "paymentLinkId": "plink_1UejW8QZ1gYzhQwNjZwhvFcH",
+      "paymentLink": "https://buy.stripe.com/test_14A00l86b0Jk5vI6BU6Zy00"
     },
     {
       "id": "zine-issue-ii",
       "name": "Zine Issue II",
       "description": "The second issue, on the margin. Poems, stories, essays, and marginalia.",
       "image": "/images/merch/zine-issue-ii.svg",
-      "priceCents": 1500,
-      "productId": "",
-      "priceId": "",
-      "paymentLinkId": "",
-      "paymentLink": ""
+      "priceCents": 2000,
+      "productId": "prod_Vg5hDeVuLR5om0",
+      "priceId": "price_1UejW9QZ1gYzhQwNetelgFZd",
+      "paymentLinkId": "plink_1UejW9QZ1gYzhQwNKJotaRp7",
+      "paymentLink": "https://buy.stripe.com/test_8x28wR4TZ63E2jwf8q6Zy01"
     },
     {
       "id": "shayar-poster",
       "name": "Shayar Poster",
       "description": "A poster from Rumuuz.",
       "image": "/images/merch/shayar-poster.svg",
-      "priceCents": 2000,
-      "productId": "",
-      "priceId": "",
-      "paymentLinkId": "",
-      "paymentLink": ""
+      "priceCents": 2500,
+      "productId": "prod_Vg5hBklLrtWaSl",
+      "priceId": "price_1UejW9QZ1gYzhQwNXyfWszeG",
+      "paymentLinkId": "plink_1UejWAQZ1gYzhQwNMUIRhO16",
+      "paymentLink": "https://buy.stripe.com/test_3cIfZj2LRajUe2e1hA6Zy02"
     },
     {
       "id": "rumuuz-tote-bag",
@@ -45,10 +72,10 @@
       "description": "A tote bag from Rumuuz.",
       "image": "/images/merch/rumuuz-tote-bag.svg",
       "priceCents": 2500,
-      "productId": "",
-      "priceId": "",
-      "paymentLinkId": "",
-      "paymentLink": ""
+      "productId": "prod_Vg5hLlQdghCVVE",
+      "priceId": "price_1UejWAQZ1gYzhQwNmkymTmwO",
+      "paymentLinkId": "plink_1UejWAQZ1gYzhQwN40ZBMCQ3",
+      "paymentLink": "https://buy.stripe.com/test_28E5kFaej1NocYa4tM6Zy03"
     }
   ]
 }

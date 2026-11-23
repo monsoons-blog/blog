@@ -7,7 +7,7 @@
 //   STRIPE_SECRET_KEY=sk_live_... node scripts/setup-stripe-merch.mjs
 // or put STRIPE_SECRET_KEY in a .env file (that file is gitignored).
 //
-// Prices and the shipping amount live in data/merch.json. Edit them,
+// Prices and the shipping amount live in .json. Edit them,
 // then run this script again. Rebuild the site afterward so Hugo
 // picks up the new Payment Link URLs.
 
@@ -190,4 +190,4 @@ for (const item of catalog.items) {
   }
 }
 
-console.log('Payment links are in data/merch.json. Rebuild the site so the Purchase buttons use them.');
+console.log('Payment links are in .json. Rebuild the site so the Purchase buttons use them.');
