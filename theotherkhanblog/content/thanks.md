@@ -8,4 +8,4 @@ showToc = false
 enableComments = false
 +++
 
-Thank you. Stripe has your name, shipping address, and payment. The order will go to the address you entered there.
+Thank you. Stripe has your name and payment. Shipped orders go to the address you entered. Pickup orders are collected at the next session.

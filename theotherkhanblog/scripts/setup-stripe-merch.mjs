@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-// Create Stripe products, prices, a shipping rate, and Payment Links
-// for the Merch catalog. Checkout collects the buyer's name, shipping
+// Create Stripe products, prices, shipping rates, and Payment Links
+// for the Merch catalog. Each item has a free in-person pickup link
+// and a paid shipping link. Checkout collects the buyer's name,
 // address, and payment on Stripe's page.
 //
 // Usage, from the site root:
@@ -67,21 +68,69 @@ async function stripe(secret, method, path, params) {
   return json;
 }
 
-function collectionParams(catalog) {
+function collectionParams(catalog, rateId) {
   const params = {
     'name_collection[individual][enabled]': 'true',
     'customer_creation': 'always',
     'billing_address_collection': 'auto',
     'after_completion[type]': 'redirect',
     'after_completion[redirect][url]': catalog.successUrl,
+    'shipping_options[0][shipping_rate]': rateId,
   };
   catalog.allowedCountries.forEach((code, index) => {
     params[`shipping_address_collection[allowed_countries][${index}]`] = code;
   });
-  if (catalog.shippingRateId) {
-    params['shipping_options[0][shipping_rate]'] = catalog.shippingRateId;
-  }
   return params;
+}
+
+async function ensureRate(secret, catalog, label, cents, currentId) {
+  if (currentId) {
+    const rate = await stripe(secret, 'GET', `shipping_rates/${currentId}`);
+    const matches =
+      rate.active &&
+      rate.display_name === label &&
+      rate.fixed_amount.amount === cents &&
+      rate.fixed_amount.currency === catalog.currency;
+    if (matches) return currentId;
+  }
+  const rate = await stripe(secret, 'POST', 'shipping_rates', {
+    display_name: label,
+    type: 'fixed_amount',
+    'fixed_amount[amount]': cents,
+    'fixed_amount[currency]': catalog.currency,
+  });
+  console.log(`${label}: ${rate.id} ($${(cents / 100).toFixed(2)})`);
+  return rate.id;
+}
+
+async function ensurePaymentLink(secret, catalog, item, idKey, urlKey, rateId, fulfillment) {
+  const shared = {
+    ...collectionParams(catalog, rateId),
+    'metadata[sku]': item.id,
+    'metadata[fulfillment]': fulfillment,
+  };
+  if (item[idKey]) {
+    try {
+      await stripe(secret, 'POST', `payment_links/${item[idKey]}`, { ...shared, active: 'true' });
+      console.log(`${item.name} (${fulfillment}): ${item[urlKey]}`);
+      return;
+    } catch (error) {
+      console.log(`Replacing ${item.name} ${fulfillment} link: ${error.message}`);
+      await stripe(secret, 'POST', `payment_links/${item[idKey]}`, { active: 'false' }).catch(() => {});
+    }
+  }
+  const link = await stripe(secret, 'POST', 'payment_links', {
+    ...shared,
+    'line_items[0][price]': item.priceId,
+    'line_items[0][quantity]': '1',
+    'line_items[0][adjustable_quantity][enabled]': 'true',
+    'line_items[0][adjustable_quantity][minimum]': '1',
+    'line_items[0][adjustable_quantity][maximum]': '10',
+  });
+  item[idKey] = link.id;
+  item[urlKey] = link.url;
+  save(catalog);
+  console.log(`${item.name} (${fulfillment}): ${link.url}`);
 }
 
 loadEnv();
@@ -100,29 +149,21 @@ const catalog = JSON.parse(readFileSync(dataPath, 'utf8'));
 const mode = secret.includes('_test_') ? 'test' : 'live';
 console.log(`Using Stripe ${mode} mode.`);
 
-const recreate = new Set();
-
-let shippingStale = catalog.shippingCents > 0 && !catalog.shippingRateId;
-if (catalog.shippingCents === 0) {
-  catalog.shippingRateId = '';
-} else if (catalog.shippingRateId) {
-  const rate = await stripe(secret, 'GET', `shipping_rates/${catalog.shippingRateId}`);
-  shippingStale =
-    rate.fixed_amount.amount !== catalog.shippingCents ||
-    rate.fixed_amount.currency !== catalog.currency;
-}
-if (shippingStale) {
-  const rate = await stripe(secret, 'POST', 'shipping_rates', {
-    display_name: catalog.shippingLabel || 'Shipping',
-    type: 'fixed_amount',
-    'fixed_amount[amount]': catalog.shippingCents,
-    'fixed_amount[currency]': catalog.currency,
-  });
-  catalog.shippingRateId = rate.id;
-  for (const item of catalog.items) recreate.add(item.id);
-  save(catalog);
-  console.log(`Shipping rate ${rate.id} ($${(catalog.shippingCents / 100).toFixed(2)})`);
-}
+catalog.shippingRateId = await ensureRate(
+  secret,
+  catalog,
+  catalog.shippingLabel || 'In-person pickup',
+  catalog.shippingCents,
+  catalog.shippingRateId,
+);
+catalog.deliveryRateId = await ensureRate(
+  secret,
+  catalog,
+  catalog.deliveryLabel || 'Shipping',
+  catalog.deliveryCents,
+  catalog.deliveryRateId,
+);
+save(catalog);
 
 for (const item of catalog.items) {
   if (!item.productId) {
@@ -157,37 +198,28 @@ for (const item of catalog.items) {
       currency: catalog.currency,
     });
     item.priceId = price.id;
-    recreate.add(item.id);
     save(catalog);
     console.log(`Price for ${item.name}: ${price.id}`);
   }
 
-  const shared = collectionParams(catalog);
-  if (!item.paymentLinkId || recreate.has(item.id)) {
-    if (item.paymentLinkId) {
-      await stripe(secret, 'POST', `payment_links/${item.paymentLinkId}`, { active: 'false' });
-    }
-    const link = await stripe(secret, 'POST', 'payment_links', {
-      ...shared,
-      'line_items[0][price]': item.priceId,
-      'line_items[0][quantity]': '1',
-      'line_items[0][adjustable_quantity][enabled]': 'true',
-      'line_items[0][adjustable_quantity][minimum]': '1',
-      'line_items[0][adjustable_quantity][maximum]': '10',
-      'metadata[sku]': item.id,
-    });
-    item.paymentLinkId = link.id;
-    item.paymentLink = link.url;
-    save(catalog);
-    console.log(`${item.name}: ${link.url}`);
-  } else {
-    await stripe(secret, 'POST', `payment_links/${item.paymentLinkId}`, {
-      ...shared,
-      active: 'true',
-      'metadata[sku]': item.id,
-    });
-    console.log(`${item.name}: ${item.paymentLink}`);
-  }
+  await ensurePaymentLink(
+    secret,
+    catalog,
+    item,
+    'paymentLinkId',
+    'paymentLink',
+    catalog.shippingRateId,
+    'pickup',
+  );
+  await ensurePaymentLink(
+    secret,
+    catalog,
+    item,
+    'shipPaymentLinkId',
+    'shipPaymentLink',
+    catalog.deliveryRateId,
+    'ship',
+  );
 }
 
 console.log('Payment links are in .json. Rebuild the site so the Purchase buttons use them.');

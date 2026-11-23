@@ -3,10 +3,10 @@
 <section id="single">
   <h1 class="title">{{ .Title }}</h1>
   <div class="content merch merch-catalog">
-    <p class="merch-intro">Printed things from Rumuuz. Purchase opens Stripe Checkout, where you enter your name, payment information, and shipping address (or type "session" if you'd like to pickup in-person at our next session). Prices are in USD and we only ship in the US.{{ if gt $catalog.shippingCents 0 }} Shipping is {{ partial "price.html" $catalog.shippingCents }} and is added before you pay. The Rumuuz team will mail you your merch within ~2 weeks of ordering{{ else }} Shipping is included.{{ end }}.</p>
+    <p class="merch-intro">Printed things from Rumuuz. Purchase opens Stripe Checkout, where you enter your name, payment information, and an address. Choose in-person shayari session pickup or shipping for each item. Prices are in USD and we only ship in the US. The Rumuuz team will send shipping orders within ~2 weeks of ordering.</p>
     <ul class="merch-list">
       {{ range $catalog.items }}
-        <li class="merch-item">
+        <li class="merch-item"{{ with .paymentLink }} data-pickup="{{ . }}"{{ end }}{{ with .shipPaymentLink }} data-ship="{{ . }}"{{ end }}>
           {{ if .image }}
             {{ if .paymentLink }}
               <a class="merch-image-link" href="{{ .paymentLink }}"><img class="merch-image" src="{{ .image | relURL }}" alt="{{ .name }}"></a>
@@ -16,6 +16,12 @@
           {{ end }}
           <h2>{{ .name }}</h2>
           <p class="merch-meta"><span class="merch-price">{{ partial "price.html" .priceCents }}</span><span class="merch-stock">In Stock</span></p>
+          {{ if and .paymentLink .shipPaymentLink }}
+            <div class="merch-fulfillment">
+              <label class="merch-choice"><input type="radio" name="receive-{{ .id }}" value="pickup" checked> In-person pickup</label>
+              <label class="merch-choice"><input type="radio" name="receive-{{ .id }}" value="ship"> Shipping (+{{ partial "price.html" $catalog.deliveryCents }})</label>
+            </div>
+          {{ end }}
           <p>{{ .description }}</p>
           {{ if .paymentLink }}
             <a class="merch-buy" href="{{ .paymentLink }}">Purchase</a>
@@ -27,4 +33,17 @@
     </ul>
   </div>
 </section>
+<script>
+  document.querySelectorAll('.merch-item').forEach(function (item) {
+    if (!item.dataset.pickup || !item.dataset.ship) return;
+    var links = item.querySelectorAll('.merch-image-link, .merch-buy');
+    item.querySelectorAll('.merch-choice input').forEach(function (input) {
+      input.addEventListener('change', function () {
+        if (!input.checked) return;
+        var href = input.value === 'ship' ? item.dataset.ship : item.dataset.pickup;
+        links.forEach(function (link) { link.href = href; });
+      });
+    });
+  });
+</script>
 {{ end }}

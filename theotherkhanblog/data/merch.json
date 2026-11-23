@@ -1,8 +1,11 @@
 {
   "currency": "usd",
-  "shippingCents": 300,
-  "shippingLabel": "Shipping",
-  "shippingRateId": "shr_1Uen4ACmOnyXdF1QaLtFq6bF",
+  "shippingCents": 0,
+  "shippingLabel": "In-person pickup",
+  "shippingRateId": "shr_1Uf4TRCmOnyXdF1QBRWT8UUX",
+  "deliveryCents": 300,
+  "deliveryLabel": "Shipping",
+  "deliveryRateId": "shr_1Uf4TRCmOnyXdF1QbYEbsSaq",
   "successUrl": "https://rumuuz.org/thanks/",
   "allowedCountries": [
     "US",
@@ -19,7 +22,9 @@
       "productId": "prod_Vg9MxcvAfHay4A",
       "priceId": "price_1Uen4BCmOnyXdF1Qyn37pTQ9",
       "paymentLinkId": "plink_1Uen4BCmOnyXdF1QcS9NWJ60",
-      "paymentLink": "https://buy.stripe.com/8x2dR8dHi83pfQG07meME00"
+      "paymentLink": "https://buy.stripe.com/8x2dR8dHi83pfQG07meME00",
+      "shipPaymentLinkId": "plink_1Uf4TdCmOnyXdF1QnQEXX5MA",
+      "shipPaymentLink": "https://buy.stripe.com/3cIaEWav6abx1ZQ4nCeME05"
     },
     {
       "id": "zine-issue-ii",
@@ -30,7 +35,9 @@
       "productId": "prod_Vg9MAuDQVYG5yc",
       "priceId": "price_1Uen4CCmOnyXdF1QcD0H3nno",
       "paymentLinkId": "plink_1Uen4CCmOnyXdF1QzShLDaIM",
-      "paymentLink": "https://buy.stripe.com/8x2bJ09r297tawm6vKeME01"
+      "paymentLink": "https://buy.stripe.com/8x2bJ09r297tawm6vKeME01",
+      "shipPaymentLinkId": "plink_1Uf4TeCmOnyXdF1QLsSFcU0V",
+      "shipPaymentLink": "https://buy.stripe.com/eVqeVcgTudnJeMC8DSeME06"
     },
     {
       "id": "shayar-poster",
@@ -41,7 +48,9 @@
       "productId": "prod_Vg9MWQKsIIZmuR",
       "priceId": "price_1Uen4CCmOnyXdF1QK7Hwsmeo",
       "paymentLinkId": "plink_1Uen4DCmOnyXdF1QwTAVGKAJ",
-      "paymentLink": "https://buy.stripe.com/28E00icDeabx7kag6keME02"
+      "paymentLink": "https://buy.stripe.com/28E00icDeabx7kag6keME02",
+      "shipPaymentLinkId": "plink_1Uf4TfCmOnyXdF1QOLMq73GZ",
+      "shipPaymentLink": "https://buy.stripe.com/aFabJ0dHidnJ5c2g6keME07"
     },
     {
       "id": "rumuuz-cover-poster",
@@ -52,7 +61,9 @@
       "productId": "prod_VgAS9c9gaW2ISn",
       "priceId": "price_1Ueo7UCmOnyXdF1QTdLC3oOP",
       "paymentLinkId": "plink_1Ueo7UCmOnyXdF1QSawxr5tn",
-      "paymentLink": "https://buy.stripe.com/7sY00ieLm6Zl47Y9HWeME04"
+      "paymentLink": "https://buy.stripe.com/7sY00ieLm6Zl47Y9HWeME04",
+      "shipPaymentLinkId": "plink_1Uf4TgCmOnyXdF1QcNbuS6T5",
+      "shipPaymentLink": "https://buy.stripe.com/4gM14m6eQ3N947Yf2geME08"
     },
     {
       "id": "rumuuz-tote-bag",
@@ -63,7 +74,9 @@
       "productId": "prod_Vg9MQu8C1fP3ry",
       "priceId": "price_1Uen4DCmOnyXdF1QOkrS4nDb",
       "paymentLinkId": "plink_1Uen4DCmOnyXdF1QkmvMeN6E",
-      "paymentLink": "https://buy.stripe.com/dRm14mbzaerNgUKdYceME03"
+      "paymentLink": "https://buy.stripe.com/dRm14mbzaerNgUKdYceME03",
+      "shipPaymentLinkId": "plink_1Uf4TiCmOnyXdF1QvqD7kfbf",
+      "shipPaymentLink": "https://buy.stripe.com/cNidR85aMabx7kabQ4eME09"
     }
   ]
 }
