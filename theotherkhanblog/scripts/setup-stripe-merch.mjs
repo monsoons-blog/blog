@@ -103,6 +103,13 @@ async function ensureRate(secret, catalog, label, cents, currentId) {
   return rate.id;
 }
 
+async function paymentLinkPriceId(secret, linkId) {
+  const items = await stripe(secret, 'GET', `payment_links/${linkId}/line_items?limit=1`);
+  const price = items.data?.[0]?.price;
+  if (!price) return '';
+  return typeof price === 'string' ? price : price.id;
+}
+
 async function ensurePaymentLink(secret, catalog, item, idKey, urlKey, rateId, fulfillment) {
   const shared = {
     ...collectionParams(catalog, rateId),
@@ -110,14 +117,24 @@ async function ensurePaymentLink(secret, catalog, item, idKey, urlKey, rateId, f
     'metadata[fulfillment]': fulfillment,
   };
   if (item[idKey]) {
+    let currentPriceId = '';
     try {
-      await stripe(secret, 'POST', `payment_links/${item[idKey]}`, { ...shared, active: 'true' });
-      console.log(`${item.name} (${fulfillment}): ${item[urlKey]}`);
-      return;
+      currentPriceId = await paymentLinkPriceId(secret, item[idKey]);
     } catch (error) {
-      console.log(`Replacing ${item.name} ${fulfillment} link: ${error.message}`);
-      await stripe(secret, 'POST', `payment_links/${item[idKey]}`, { active: 'false' }).catch(() => {});
+      console.log(`Could not read ${item.name} ${fulfillment} link: ${error.message}`);
     }
+    if (currentPriceId === item.priceId) {
+      try {
+        await stripe(secret, 'POST', `payment_links/${item[idKey]}`, { ...shared, active: 'true' });
+        console.log(`${item.name} (${fulfillment}): ${item[urlKey]}`);
+        return;
+      } catch (error) {
+        console.log(`Replacing ${item.name} ${fulfillment} link: ${error.message}`);
+      }
+    } else {
+      console.log(`Replacing ${item.name} ${fulfillment} link because the price changed.`);
+    }
+    await stripe(secret, 'POST', `payment_links/${item[idKey]}`, { active: 'false' }).catch(() => {});
   }
   const link = await stripe(secret, 'POST', 'payment_links', {
     ...shared,

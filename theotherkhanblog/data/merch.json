@@ -18,26 +18,26 @@
       "name": "Zine Issue I",
       "description": "Rumuuz's first zine, RISO printed. A palimpsest of shayari and essays in Urdu and English.",
       "image": "/images/merch/zine-issue-i.png",
-      "priceCents": 1500,
+      "priceCents": 1000,
       "productId": "prod_Vg9MxcvAfHay4A",
-      "priceId": "price_1Uen4BCmOnyXdF1Qyn37pTQ9",
-      "paymentLinkId": "plink_1Uen4BCmOnyXdF1QcS9NWJ60",
-      "paymentLink": "https://buy.stripe.com/8x2dR8dHi83pfQG07meME00",
-      "shipPaymentLinkId": "plink_1Uf4TdCmOnyXdF1QnQEXX5MA",
-      "shipPaymentLink": "https://buy.stripe.com/3cIaEWav6abx1ZQ4nCeME05"
+      "priceId": "price_1UfN7JCmOnyXdF1Q8RYG5ltu",
+      "paymentLinkId": "plink_1UfN7KCmOnyXdF1QwFiEU2J1",
+      "paymentLink": "https://buy.stripe.com/6oU3cu1YAbfB8oe9HWeME0a",
+      "shipPaymentLinkId": "plink_1UfN7LCmOnyXdF1QeKAxfJDq",
+      "shipPaymentLink": "https://buy.stripe.com/5kQaEW6eQ0AX5c22fueME0b"
     },
     {
       "id": "zine-issue-ii",
       "name": "Zine Issue II",
       "description": "Our second zine issue. Poems, short stories, essays, and related marginalia.",
       "image": "/images/merch/zine-issue-ii.png",
-      "priceCents": 2000,
+      "priceCents": 1500,
       "productId": "prod_Vg9MAuDQVYG5yc",
-      "priceId": "price_1Uen4CCmOnyXdF1QcD0H3nno",
-      "paymentLinkId": "plink_1Uen4CCmOnyXdF1QzShLDaIM",
-      "paymentLink": "https://buy.stripe.com/8x2bJ09r297tawm6vKeME01",
-      "shipPaymentLinkId": "plink_1Uf4TeCmOnyXdF1QLsSFcU0V",
-      "shipPaymentLink": "https://buy.stripe.com/eVqeVcgTudnJeMC8DSeME06"
+      "priceId": "price_1UfN7LCmOnyXdF1QTJm5V2IX",
+      "paymentLinkId": "plink_1UfN7MCmOnyXdF1Qmti1IEjI",
+      "paymentLink": "https://buy.stripe.com/00w5kCcDe4RdbAq07meME0c",
+      "shipPaymentLinkId": "plink_1UfN7NCmOnyXdF1QHXR5VpvI",
+      "shipPaymentLink": "https://buy.stripe.com/7sY7sK6eQ83p8oe7zOeME0d"
     },
     {
       "id": "shayar-poster",
